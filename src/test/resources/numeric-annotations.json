@@ -1,0 +1,1815 @@
+[
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueCtePayload/properties/aereo/properties/produtos_perigosos/items/properties/quantidade_total",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueCtePayload/properties/aereo/properties/produtos_perigosos/items/properties/quantidade_total",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "99999999999.9999",
+    "outside": "99999999999.9999000000000000000000000001"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueCtePayload/properties/aereo/properties/tarifa/properties/valor",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueCtePayload/properties/aereo/properties/tarifa/properties/valor",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "9999999999999.99",
+    "outside": "9999999999999.9900000000000000000000000001"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueCtePayload/properties/aquaviario/properties/adicional_frete",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueCtePayload/properties/aquaviario/properties/adicional_frete",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "9999999999999.99",
+    "outside": "9999999999999.9900000000000000000000000001"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueCtePayload/properties/aquaviario/properties/containers/items/properties/documentos/items/properties/medida_rateada",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueCtePayload/properties/aquaviario/properties/containers/items/properties/documentos/items/properties/medida_rateada",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "99.999",
+    "outside": "99.9990000000000000000000000001"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueCtePayload/properties/aquaviario/properties/valor_prestacao",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueCtePayload/properties/aquaviario/properties/valor_prestacao",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "9999999999999.99",
+    "outside": "9999999999999.9900000000000000000000000001"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueCtePayload/properties/carga/properties/quantidades/items/properties/quantidade",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueCtePayload/properties/carga/properties/quantidades/items/properties/quantidade",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "99999999999.9999",
+    "outside": "99999999999.9999000000000000000000000001"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueCtePayload/properties/carga/properties/valor_averbacao",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueCtePayload/properties/carga/properties/valor_averbacao",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "9999999999999.99",
+    "outside": "9999999999999.9900000000000000000000000001"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueCtePayload/properties/carga/properties/valor_total",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueCtePayload/properties/carga/properties/valor_total",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "9999999999999.99",
+    "outside": "9999999999999.9900000000000000000000000001"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueCtePayload/properties/cobranca/properties/duplicatas/items/properties/valor",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueCtePayload/properties/cobranca/properties/duplicatas/items/properties/valor",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "9999999999999.99",
+    "outside": "9999999999999.9900000000000000000000000001"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueCtePayload/properties/cobranca/properties/fatura/properties/valor_desconto",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueCtePayload/properties/cobranca/properties/fatura/properties/valor_desconto",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "9999999999999.99",
+    "outside": "9999999999999.9900000000000000000000000001"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueCtePayload/properties/cobranca/properties/fatura/properties/valor_liquido",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueCtePayload/properties/cobranca/properties/fatura/properties/valor_liquido",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "9999999999999.99",
+    "outside": "9999999999999.9900000000000000000000000001"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueCtePayload/properties/cobranca/properties/fatura/properties/valor_original",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueCtePayload/properties/cobranca/properties/fatura/properties/valor_original",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "9999999999999.99",
+    "outside": "9999999999999.9900000000000000000000000001"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueCtePayload/properties/documentos_fiscais/items/properties/base_calculo",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueCtePayload/properties/documentos_fiscais/items/properties/base_calculo",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "9999999999999.99",
+    "outside": "9999999999999.9900000000000000000000000001"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueCtePayload/properties/documentos_fiscais/items/properties/base_calculo_st",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueCtePayload/properties/documentos_fiscais/items/properties/base_calculo_st",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "9999999999999.99",
+    "outside": "9999999999999.9900000000000000000000000001"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueCtePayload/properties/documentos_fiscais/items/properties/icms",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueCtePayload/properties/documentos_fiscais/items/properties/icms",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "9999999999999.99",
+    "outside": "9999999999999.9900000000000000000000000001"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueCtePayload/properties/documentos_fiscais/items/properties/icms_st",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueCtePayload/properties/documentos_fiscais/items/properties/icms_st",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "9999999999999.99",
+    "outside": "9999999999999.9900000000000000000000000001"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueCtePayload/properties/documentos_fiscais/items/properties/peso",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueCtePayload/properties/documentos_fiscais/items/properties/peso",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "999999999999.999",
+    "outside": "999999999999.9990000000000000000000000001"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueCtePayload/properties/documentos_fiscais/items/properties/unidades_carga/items/properties/quantidade_rateada",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueCtePayload/properties/documentos_fiscais/items/properties/unidades_carga/items/properties/quantidade_rateada",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "999.999",
+    "outside": "999.9990000000000000000000000001"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueCtePayload/properties/documentos_fiscais/items/properties/unidades_transporte/items/properties/quantidade_rateada",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueCtePayload/properties/documentos_fiscais/items/properties/unidades_transporte/items/properties/quantidade_rateada",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "999.999",
+    "outside": "999.9990000000000000000000000001"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueCtePayload/properties/documentos_fiscais/items/properties/unidades_transporte/items/properties/unidades_carga/items/properties/quantidade_rateada",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueCtePayload/properties/documentos_fiscais/items/properties/unidades_transporte/items/properties/unidades_carga/items/properties/quantidade_rateada",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "999.999",
+    "outside": "999.9990000000000000000000000001"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueCtePayload/properties/documentos_fiscais/items/properties/valor_produtos",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueCtePayload/properties/documentos_fiscais/items/properties/valor_produtos",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "9999999999999.99",
+    "outside": "9999999999999.9900000000000000000000000001"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueCtePayload/properties/documentos_fiscais/items/properties/valor_total",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueCtePayload/properties/documentos_fiscais/items/properties/valor_total",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "9999999999999.99",
+    "outside": "9999999999999.9900000000000000000000000001"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueCtePayload/properties/dutoviario/properties/valor_tarifa",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueCtePayload/properties/dutoviario/properties/valor_tarifa",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "999999999.999999",
+    "outside": "999999999.9999990000000000000000000001"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueCtePayload/properties/ferroviario/properties/valor_frete",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueCtePayload/properties/ferroviario/properties/valor_frete",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "9999999999999.99",
+    "outside": "9999999999999.9900000000000000000000000001"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueCtePayload/properties/impostos/properties/cofins",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueCtePayload/properties/impostos/properties/cofins",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "9999999999999.99",
+    "outside": "9999999999999.9900000000000000000000000001"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueCtePayload/properties/impostos/properties/csll",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueCtePayload/properties/impostos/properties/csll",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "9999999999999.99",
+    "outside": "9999999999999.9900000000000000000000000001"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueCtePayload/properties/impostos/properties/icms/properties/aliquota",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueCtePayload/properties/impostos/properties/icms/properties/aliquota",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "999.99",
+    "outside": "999.9900000000000000000000000001"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueCtePayload/properties/impostos/properties/icms/properties/aliquota_st_retido",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueCtePayload/properties/impostos/properties/icms/properties/aliquota_st_retido",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "999.99",
+    "outside": "999.9900000000000000000000000001"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueCtePayload/properties/impostos/properties/icms/properties/bc_st_retido",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueCtePayload/properties/impostos/properties/icms/properties/bc_st_retido",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "9999999999999.99",
+    "outside": "9999999999999.9900000000000000000000000001"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueCtePayload/properties/impostos/properties/icms/properties/credito_outorgado",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueCtePayload/properties/impostos/properties/icms/properties/credito_outorgado",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "9999999999999.99",
+    "outside": "9999999999999.9900000000000000000000000001"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueCtePayload/properties/impostos/properties/icms/properties/partilha/properties/aliquota_fcp_uf_destino",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueCtePayload/properties/impostos/properties/icms/properties/partilha/properties/aliquota_fcp_uf_destino",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "999.99",
+    "outside": "999.9900000000000000000000000001"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueCtePayload/properties/impostos/properties/icms/properties/partilha/properties/aliquota_icms_interestadual",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueCtePayload/properties/impostos/properties/icms/properties/partilha/properties/aliquota_icms_interestadual",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "999.99",
+    "outside": "999.9900000000000000000000000001"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueCtePayload/properties/impostos/properties/icms/properties/partilha/properties/aliquota_icms_uf_destino",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueCtePayload/properties/impostos/properties/icms/properties/partilha/properties/aliquota_icms_uf_destino",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "999.99",
+    "outside": "999.9900000000000000000000000001"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueCtePayload/properties/impostos/properties/icms/properties/partilha/properties/aliquota_icms_uf_origem",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueCtePayload/properties/impostos/properties/icms/properties/partilha/properties/aliquota_icms_uf_origem",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "999.99",
+    "outside": "999.9900000000000000000000000001"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueCtePayload/properties/impostos/properties/icms/properties/partilha/properties/base_calculo",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueCtePayload/properties/impostos/properties/icms/properties/partilha/properties/base_calculo",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "9999999999999.99",
+    "outside": "9999999999999.9900000000000000000000000001"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueCtePayload/properties/impostos/properties/icms/properties/percentual_reducao",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueCtePayload/properties/impostos/properties/icms/properties/percentual_reducao",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "999.99",
+    "outside": "999.9900000000000000000000000001"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueCtePayload/properties/impostos/properties/inss",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueCtePayload/properties/impostos/properties/inss",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "9999999999999.99",
+    "outside": "9999999999999.9900000000000000000000000001"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueCtePayload/properties/impostos/properties/ir",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueCtePayload/properties/impostos/properties/ir",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "9999999999999.99",
+    "outside": "9999999999999.9900000000000000000000000001"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueCtePayload/properties/impostos/properties/pis",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueCtePayload/properties/impostos/properties/pis",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "9999999999999.99",
+    "outside": "9999999999999.9900000000000000000000000001"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueCtePayload/properties/pagamentos_vinculados/items/properties/n_pag",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "1",
+    "outside": "0.9999999999999999999999999999"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueCtePayload/properties/pagamentos_vinculados/items/properties/n_pag",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "990",
+    "outside": "990.0000000000000000000000000001"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueCtePayload/properties/servico/properties/valor_recebido",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueCtePayload/properties/servico/properties/valor_recebido",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "9999999999999.99",
+    "outside": "9999999999999.9900000000000000000000000001"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueCtePayload/properties/servico/properties/valor_total",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueCtePayload/properties/servico/properties/valor_total",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "9999999999999.99",
+    "outside": "9999999999999.9900000000000000000000000001"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueCtePayload/properties/veiculos_novos/items/properties/valor_frete_unitario",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueCtePayload/properties/veiculos_novos/items/properties/valor_frete_unitario",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "9999999999999.99",
+    "outside": "9999999999999.9900000000000000000000000001"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueCtePayload/properties/veiculos_novos/items/properties/valor_unitario",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueCtePayload/properties/veiculos_novos/items/properties/valor_unitario",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "9999999999999.99",
+    "outside": "9999999999999.9900000000000000000000000001"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterCorrectCtePayload/properties/alteracoes/items/properties/item",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "1",
+    "outside": "0.9999999999999999999999999999"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterCorrectCtePayload/properties/alteracoes/items/properties/item",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "99",
+    "outside": "99.0000000000000000000000000001"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterCorrectCtePayload/properties/sequencia",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "1",
+    "outside": "0.9999999999999999999999999999"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterCorrectCtePayload/properties/sequencia",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "20",
+    "outside": "20.0000000000000000000000000001"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterLinkCtePaymentPayload/properties/pagamento/properties/n_pag",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "1",
+    "outside": "0.9999999999999999999999999999"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterLinkCtePaymentPayload/properties/pagamento/properties/n_pag",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "990",
+    "outside": "990.0000000000000000000000000001"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterLinkCtePaymentPayload/properties/sequencia/anyOf/0",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "1",
+    "outside": "0.9999999999999999999999999999"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterLinkCtePaymentPayload/properties/sequencia/anyOf/0",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "999",
+    "outside": "999.0000000000000000000000000001"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterCancelCtePaymentLinkPayload/properties/sequencia/anyOf/0",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "1",
+    "outside": "0.9999999999999999999999999999"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterCancelCtePaymentLinkPayload/properties/sequencia/anyOf/0",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "999",
+    "outside": "999.0000000000000000000000000001"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterCancelCtePaymentLinkPayload/properties/sequencia_vinculacao",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "1",
+    "outside": "0.9999999999999999999999999999"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterCancelCtePaymentLinkPayload/properties/sequencia_vinculacao",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "999",
+    "outside": "999.0000000000000000000000000001"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/CteServiceGroup/properties/valor_recebido",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/CteServiceGroup/properties/valor_recebido",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "9999999999999.99",
+    "outside": "9999999999999.9900000000000000000000000001"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/CteServiceGroup/properties/valor_total",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/CteServiceGroup/properties/valor_total",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "9999999999999.99",
+    "outside": "9999999999999.9900000000000000000000000001"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/CteOsServiceGroup/properties/valor_recebido",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/CteOsServiceGroup/properties/valor_recebido",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "9999999999999.99",
+    "outside": "9999999999999.9900000000000000000000000001"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/CteOsServiceGroup/properties/valor_total",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/cte-issuance.openapi.json",
+    "pointer": "/components/schemas/CteOsServiceGroup/properties/valor_total",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "9999999999999.99",
+    "outside": "9999999999999.9900000000000000000000000001"
+  },
+  {
+    "module": "api2/dce-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueDcePayload/properties/itens/items/properties/quantidade",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/dce-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueDcePayload/properties/itens/items/properties/quantidade",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "99999999999.9999",
+    "outside": "99999999999.9999000000000000000000000001"
+  },
+  {
+    "module": "api2/dce-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueDcePayload/properties/itens/items/properties/valor_unitario",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/dce-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueDcePayload/properties/itens/items/properties/valor_unitario",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "9999999999999.99999999",
+    "outside": "9999999999999.9999999900000000000000000001"
+  },
+  {
+    "module": "api2/dce-issuance.openapi.json",
+    "pointer": "/components/schemas/DceItemGroup/properties/quantidade",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/dce-issuance.openapi.json",
+    "pointer": "/components/schemas/DceItemGroup/properties/quantidade",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "99999999999.9999",
+    "outside": "99999999999.9999000000000000000000000001"
+  },
+  {
+    "module": "api2/dce-issuance.openapi.json",
+    "pointer": "/components/schemas/DceItemGroup/properties/valor_unitario",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/dce-issuance.openapi.json",
+    "pointer": "/components/schemas/DceItemGroup/properties/valor_unitario",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "9999999999999.99999999",
+    "outside": "9999999999999.9999999900000000000000000001"
+  },
+  {
+    "module": "api2/nfcom-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueNfcomPayload/properties/assinante/anyOf/0/properties/tipo/anyOf/0",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "1",
+    "outside": "0.9999999999999999999999999999"
+  },
+  {
+    "module": "api2/nfcom-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueNfcomPayload/properties/assinante/anyOf/0/properties/tipo/anyOf/0",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "99",
+    "outside": "99.0000000000000000000000000001"
+  },
+  {
+    "module": "api2/nfcom-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueNfcomPayload/properties/assinante/anyOf/0/properties/tipo_servico/anyOf/0",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "1",
+    "outside": "0.9999999999999999999999999999"
+  },
+  {
+    "module": "api2/nfcom-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueNfcomPayload/properties/assinante/anyOf/0/properties/tipo_servico/anyOf/0",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "6",
+    "outside": "6.0000000000000000000000000001"
+  },
+  {
+    "module": "api2/nfcom-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueNfcomPayload/properties/cofaturamento/anyOf/0/properties/nf_referenciada/anyOf/0/properties/numero",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "1",
+    "outside": "0.9999999999999999999999999999"
+  },
+  {
+    "module": "api2/nfcom-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueNfcomPayload/properties/cofaturamento/anyOf/0/properties/nf_referenciada/anyOf/0/properties/numero",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "999999999",
+    "outside": "999999999.0000000000000000000000000001"
+  },
+  {
+    "module": "api2/nfcom-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueNfcomPayload/properties/pgto_vinc/anyOf/0/properties/pagamentos/items/properties/n_pag",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "1",
+    "outside": "0.9999999999999999999999999999"
+  },
+  {
+    "module": "api2/nfcom-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueNfcomPayload/properties/pgto_vinc/anyOf/0/properties/pagamentos/items/properties/n_pag",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "990",
+    "outside": "990.0000000000000000000000000001"
+  },
+  {
+    "module": "api2/nfcom-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueNfcomPayload/properties/substituicao/anyOf/0/properties/nf_referenciada/anyOf/0/properties/numero",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "1",
+    "outside": "0.9999999999999999999999999999"
+  },
+  {
+    "module": "api2/nfcom-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueNfcomPayload/properties/substituicao/anyOf/0/properties/nf_referenciada/anyOf/0/properties/numero",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "999999999",
+    "outside": "999999999.0000000000000000000000000001"
+  },
+  {
+    "module": "api2/nfcom-issuance.openapi.json",
+    "pointer": "/components/schemas/NfcomItemGroup/properties/impostos/properties/cofins/anyOf/0/properties/aliquota/anyOf/0",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/nfcom-issuance.openapi.json",
+    "pointer": "/components/schemas/NfcomItemGroup/properties/impostos/properties/cofins/anyOf/0/properties/aliquota/anyOf/0",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "100",
+    "outside": "100.0000000000000000000000000001"
+  },
+  {
+    "module": "api2/nfcom-issuance.openapi.json",
+    "pointer": "/components/schemas/NfcomItemGroup/properties/impostos/properties/cofins/anyOf/0/properties/valor/anyOf/0",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/nfcom-issuance.openapi.json",
+    "pointer": "/components/schemas/NfcomItemGroup/properties/impostos/properties/cofins/anyOf/0/properties/valor/anyOf/0",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "99999999999.99",
+    "outside": "99999999999.9900000000000000000000000001"
+  },
+  {
+    "module": "api2/nfcom-issuance.openapi.json",
+    "pointer": "/components/schemas/NfcomItemGroup/properties/impostos/properties/cofins/anyOf/0/properties/valor_base_calculo/anyOf/0",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/nfcom-issuance.openapi.json",
+    "pointer": "/components/schemas/NfcomItemGroup/properties/impostos/properties/cofins/anyOf/0/properties/valor_base_calculo/anyOf/0",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "99999999999.99",
+    "outside": "99999999999.9900000000000000000000000001"
+  },
+  {
+    "module": "api2/nfcom-issuance.openapi.json",
+    "pointer": "/components/schemas/NfcomItemGroup/properties/impostos/properties/funttel/anyOf/0/properties/aliquota/anyOf/0",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/nfcom-issuance.openapi.json",
+    "pointer": "/components/schemas/NfcomItemGroup/properties/impostos/properties/funttel/anyOf/0/properties/aliquota/anyOf/0",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "100",
+    "outside": "100.0000000000000000000000000001"
+  },
+  {
+    "module": "api2/nfcom-issuance.openapi.json",
+    "pointer": "/components/schemas/NfcomItemGroup/properties/impostos/properties/funttel/anyOf/0/properties/valor/anyOf/0",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/nfcom-issuance.openapi.json",
+    "pointer": "/components/schemas/NfcomItemGroup/properties/impostos/properties/funttel/anyOf/0/properties/valor/anyOf/0",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "99999999999.99",
+    "outside": "99999999999.9900000000000000000000000001"
+  },
+  {
+    "module": "api2/nfcom-issuance.openapi.json",
+    "pointer": "/components/schemas/NfcomItemGroup/properties/impostos/properties/funttel/anyOf/0/properties/valor_base_calculo/anyOf/0",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/nfcom-issuance.openapi.json",
+    "pointer": "/components/schemas/NfcomItemGroup/properties/impostos/properties/funttel/anyOf/0/properties/valor_base_calculo/anyOf/0",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "99999999999.99",
+    "outside": "99999999999.9900000000000000000000000001"
+  },
+  {
+    "module": "api2/nfcom-issuance.openapi.json",
+    "pointer": "/components/schemas/NfcomItemGroup/properties/impostos/properties/fust/anyOf/0/properties/aliquota/anyOf/0",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/nfcom-issuance.openapi.json",
+    "pointer": "/components/schemas/NfcomItemGroup/properties/impostos/properties/fust/anyOf/0/properties/aliquota/anyOf/0",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "100",
+    "outside": "100.0000000000000000000000000001"
+  },
+  {
+    "module": "api2/nfcom-issuance.openapi.json",
+    "pointer": "/components/schemas/NfcomItemGroup/properties/impostos/properties/fust/anyOf/0/properties/valor/anyOf/0",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/nfcom-issuance.openapi.json",
+    "pointer": "/components/schemas/NfcomItemGroup/properties/impostos/properties/fust/anyOf/0/properties/valor/anyOf/0",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "99999999999.99",
+    "outside": "99999999999.9900000000000000000000000001"
+  },
+  {
+    "module": "api2/nfcom-issuance.openapi.json",
+    "pointer": "/components/schemas/NfcomItemGroup/properties/impostos/properties/fust/anyOf/0/properties/valor_base_calculo/anyOf/0",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/nfcom-issuance.openapi.json",
+    "pointer": "/components/schemas/NfcomItemGroup/properties/impostos/properties/fust/anyOf/0/properties/valor_base_calculo/anyOf/0",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "99999999999.99",
+    "outside": "99999999999.9900000000000000000000000001"
+  },
+  {
+    "module": "api2/nfcom-issuance.openapi.json",
+    "pointer": "/components/schemas/NfcomItemGroup/properties/impostos/properties/icms/anyOf/0/properties/aliquota_icms/anyOf/0",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/nfcom-issuance.openapi.json",
+    "pointer": "/components/schemas/NfcomItemGroup/properties/impostos/properties/icms/anyOf/0/properties/aliquota_icms/anyOf/0",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "100",
+    "outside": "100.0000000000000000000000000001"
+  },
+  {
+    "module": "api2/nfcom-issuance.openapi.json",
+    "pointer": "/components/schemas/NfcomItemGroup/properties/impostos/properties/icms/anyOf/0/properties/valor_base_calculo/anyOf/0",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/nfcom-issuance.openapi.json",
+    "pointer": "/components/schemas/NfcomItemGroup/properties/impostos/properties/icms/anyOf/0/properties/valor_base_calculo/anyOf/0",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "99999999999.99",
+    "outside": "99999999999.9900000000000000000000000001"
+  },
+  {
+    "module": "api2/nfcom-issuance.openapi.json",
+    "pointer": "/components/schemas/NfcomItemGroup/properties/impostos/properties/icms/anyOf/0/properties/valor_icms/anyOf/0",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/nfcom-issuance.openapi.json",
+    "pointer": "/components/schemas/NfcomItemGroup/properties/impostos/properties/icms/anyOf/0/properties/valor_icms/anyOf/0",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "99999999999.99",
+    "outside": "99999999999.9900000000000000000000000001"
+  },
+  {
+    "module": "api2/nfcom-issuance.openapi.json",
+    "pointer": "/components/schemas/NfcomItemGroup/properties/impostos/properties/pis/anyOf/0/properties/aliquota/anyOf/0",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/nfcom-issuance.openapi.json",
+    "pointer": "/components/schemas/NfcomItemGroup/properties/impostos/properties/pis/anyOf/0/properties/aliquota/anyOf/0",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "100",
+    "outside": "100.0000000000000000000000000001"
+  },
+  {
+    "module": "api2/nfcom-issuance.openapi.json",
+    "pointer": "/components/schemas/NfcomItemGroup/properties/impostos/properties/pis/anyOf/0/properties/valor/anyOf/0",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/nfcom-issuance.openapi.json",
+    "pointer": "/components/schemas/NfcomItemGroup/properties/impostos/properties/pis/anyOf/0/properties/valor/anyOf/0",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "99999999999.99",
+    "outside": "99999999999.9900000000000000000000000001"
+  },
+  {
+    "module": "api2/nfcom-issuance.openapi.json",
+    "pointer": "/components/schemas/NfcomItemGroup/properties/impostos/properties/pis/anyOf/0/properties/valor_base_calculo/anyOf/0",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/nfcom-issuance.openapi.json",
+    "pointer": "/components/schemas/NfcomItemGroup/properties/impostos/properties/pis/anyOf/0/properties/valor_base_calculo/anyOf/0",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "99999999999.99",
+    "outside": "99999999999.9900000000000000000000000001"
+  },
+  {
+    "module": "api2/nfcom-issuance.openapi.json",
+    "pointer": "/components/schemas/NfcomItemGroup/properties/quantidade",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0.0001",
+    "outside": "0.0000999999999999999999999999"
+  },
+  {
+    "module": "api2/nfcom-issuance.openapi.json",
+    "pointer": "/components/schemas/NfcomItemGroup/properties/quantidade",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "99999999999.9999",
+    "outside": "99999999999.9999000000000000000000000001"
+  },
+  {
+    "module": "api2/nfcom-issuance.openapi.json",
+    "pointer": "/components/schemas/NfcomItemGroup/properties/valor_total",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0.00",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/nfcom-issuance.openapi.json",
+    "pointer": "/components/schemas/NfcomItemGroup/properties/valor_total",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "99999999999.99",
+    "outside": "99999999999.9900000000000000000000000001"
+  },
+  {
+    "module": "api2/nfcom-issuance.openapi.json",
+    "pointer": "/components/schemas/NfcomItemGroup/properties/valor_unitario",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0.00",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/nfcom-issuance.openapi.json",
+    "pointer": "/components/schemas/NfcomItemGroup/properties/valor_unitario",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "99999999999.99",
+    "outside": "99999999999.9900000000000000000000000001"
+  },
+  {
+    "module": "api2/nfse-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueNfsePayload/properties/rps/items/properties/condicao_pagamento/properties/parcelas/items/properties/parcela",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "1",
+    "outside": "0.9999999999999999999999999999"
+  },
+  {
+    "module": "api2/nfse-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueNfsePayload/properties/rps/items/properties/condicao_pagamento/properties/parcelas/items/properties/parcela",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "999",
+    "outside": "999.0000000000000000000000000001"
+  },
+  {
+    "module": "api2/nfse-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueNfsePayload/properties/rps/items/properties/condicao_pagamento/properties/parcelas/items/properties/valor",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/nfse-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueNfsePayload/properties/rps/items/properties/condicao_pagamento/properties/qtd_parcela",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "1",
+    "outside": "0.9999999999999999999999999999"
+  },
+  {
+    "module": "api2/nfse-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueNfsePayload/properties/rps/items/properties/condicao_pagamento/properties/qtd_parcela",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "999",
+    "outside": "999.0000000000000000000000000001"
+  },
+  {
+    "module": "api2/nfse-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueNfsePayload/properties/rps/items/properties/servico/properties/impostos/properties/ibs_cbs/properties/cbs/properties/aliquota_diferimento",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/nfse-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueNfsePayload/properties/rps/items/properties/servico/properties/impostos/properties/ibs_cbs/properties/cbs/properties/aliquota_diferimento",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "100",
+    "outside": "100.0000000000000000000000000001"
+  },
+  {
+    "module": "api2/nfse-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueNfsePayload/properties/rps/items/properties/servico/properties/impostos/properties/ibs_cbs/properties/ibs_estadual/properties/aliquota_diferimento",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/nfse-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueNfsePayload/properties/rps/items/properties/servico/properties/impostos/properties/ibs_cbs/properties/ibs_estadual/properties/aliquota_diferimento",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "100",
+    "outside": "100.0000000000000000000000000001"
+  },
+  {
+    "module": "api2/nfse-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueNfsePayload/properties/rps/items/properties/servico/properties/impostos/properties/ibs_cbs/properties/ibs_municipal/properties/aliquota_diferimento",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/nfse-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueNfsePayload/properties/rps/items/properties/servico/properties/impostos/properties/ibs_cbs/properties/ibs_municipal/properties/aliquota_diferimento",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "100",
+    "outside": "100.0000000000000000000000000001"
+  },
+  {
+    "module": "api2/nfse-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueNfsePayload/properties/rps/items/properties/servico/properties/impostos/properties/ibs_cbs/properties/pRedutor",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/nfse-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueNfsePayload/properties/rps/items/properties/servico/properties/impostos/properties/ibs_cbs/properties/pRedutor",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "100",
+    "outside": "100.0000000000000000000000000001"
+  },
+  {
+    "module": "api2/nfse-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueNfsePayload/properties/rps/items/properties/servico/properties/impostos/properties/ibs_cbs/properties/p_redutor",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/nfse-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueNfsePayload/properties/rps/items/properties/servico/properties/impostos/properties/ibs_cbs/properties/p_redutor",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "100",
+    "outside": "100.0000000000000000000000000001"
+  },
+  {
+    "module": "api2/nfse-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueNfsePayload/properties/rps/items/properties/servico/properties/impostos/properties/piscofins/properties/aliquota_cofins",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/nfse-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueNfsePayload/properties/rps/items/properties/servico/properties/impostos/properties/piscofins/properties/aliquota_cofins",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "100",
+    "outside": "100.0000000000000000000000000001"
+  },
+  {
+    "module": "api2/nfse-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueNfsePayload/properties/rps/items/properties/servico/properties/impostos/properties/piscofins/properties/aliquota_pis",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/nfse-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueNfsePayload/properties/rps/items/properties/servico/properties/impostos/properties/piscofins/properties/aliquota_pis",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "100",
+    "outside": "100.0000000000000000000000000001"
+  },
+  {
+    "module": "api2/nfse-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueNfsePayload/properties/rps/items/properties/servico/properties/impostos/properties/piscofins/properties/base_calculo",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/nfse-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueNfsePayload/properties/rps/items/properties/servico/properties/impostos/properties/piscofins/properties/valor_cofins",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/nfse-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueNfsePayload/properties/rps/items/properties/servico/properties/impostos/properties/piscofins/properties/valor_pis",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/nfse-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueNfsePayload/properties/rps/items/properties/servico/properties/impostos/properties/totTrib/properties/pTotTribEst",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/nfse-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueNfsePayload/properties/rps/items/properties/servico/properties/impostos/properties/totTrib/properties/pTotTribEst",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "999.99",
+    "outside": "999.9900000000000000000000000001"
+  },
+  {
+    "module": "api2/nfse-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueNfsePayload/properties/rps/items/properties/servico/properties/impostos/properties/totTrib/properties/pTotTribFed",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/nfse-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueNfsePayload/properties/rps/items/properties/servico/properties/impostos/properties/totTrib/properties/pTotTribFed",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "999.99",
+    "outside": "999.9900000000000000000000000001"
+  },
+  {
+    "module": "api2/nfse-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueNfsePayload/properties/rps/items/properties/servico/properties/impostos/properties/totTrib/properties/pTotTribMun",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/nfse-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueNfsePayload/properties/rps/items/properties/servico/properties/impostos/properties/totTrib/properties/pTotTribMun",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "999.99",
+    "outside": "999.9900000000000000000000000001"
+  },
+  {
+    "module": "api2/nfse-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueNfsePayload/properties/rps/items/properties/servico/properties/impostos/properties/tot_trib/properties/estadual",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/nfse-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueNfsePayload/properties/rps/items/properties/servico/properties/impostos/properties/tot_trib/properties/estadual",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "999.99",
+    "outside": "999.9900000000000000000000000001"
+  },
+  {
+    "module": "api2/nfse-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueNfsePayload/properties/rps/items/properties/servico/properties/impostos/properties/tot_trib/properties/federal",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/nfse-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueNfsePayload/properties/rps/items/properties/servico/properties/impostos/properties/tot_trib/properties/federal",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "999.99",
+    "outside": "999.9900000000000000000000000001"
+  },
+  {
+    "module": "api2/nfse-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueNfsePayload/properties/rps/items/properties/servico/properties/impostos/properties/tot_trib/properties/municipal",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/nfse-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueNfsePayload/properties/rps/items/properties/servico/properties/impostos/properties/tot_trib/properties/municipal",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "999.99",
+    "outside": "999.9900000000000000000000000001"
+  },
+  {
+    "module": "api2/nfse-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueNfsePayload/properties/rps/items/properties/servico/properties/reembolso_repasse/properties/documentos/items/properties/valor",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/nfse-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterIssueNfsePayload/properties/rps/items/properties/servico/properties/reembolso_repasse/properties/documentos/items/properties/valor_total",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/nfse-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterReplaceNfsePayload/properties/rps/items/properties/condicao_pagamento/properties/parcelas/items/properties/parcela",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "1",
+    "outside": "0.9999999999999999999999999999"
+  },
+  {
+    "module": "api2/nfse-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterReplaceNfsePayload/properties/rps/items/properties/condicao_pagamento/properties/parcelas/items/properties/parcela",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "999",
+    "outside": "999.0000000000000000000000000001"
+  },
+  {
+    "module": "api2/nfse-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterReplaceNfsePayload/properties/rps/items/properties/condicao_pagamento/properties/parcelas/items/properties/valor",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/nfse-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterReplaceNfsePayload/properties/rps/items/properties/condicao_pagamento/properties/qtd_parcela",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "1",
+    "outside": "0.9999999999999999999999999999"
+  },
+  {
+    "module": "api2/nfse-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterReplaceNfsePayload/properties/rps/items/properties/condicao_pagamento/properties/qtd_parcela",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "999",
+    "outside": "999.0000000000000000000000000001"
+  },
+  {
+    "module": "api2/nfse-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterReplaceNfsePayload/properties/rps/items/properties/servico/properties/impostos/properties/piscofins/properties/aliquota_cofins",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/nfse-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterReplaceNfsePayload/properties/rps/items/properties/servico/properties/impostos/properties/piscofins/properties/aliquota_cofins",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "100",
+    "outside": "100.0000000000000000000000000001"
+  },
+  {
+    "module": "api2/nfse-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterReplaceNfsePayload/properties/rps/items/properties/servico/properties/impostos/properties/piscofins/properties/aliquota_pis",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/nfse-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterReplaceNfsePayload/properties/rps/items/properties/servico/properties/impostos/properties/piscofins/properties/aliquota_pis",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "100",
+    "outside": "100.0000000000000000000000000001"
+  },
+  {
+    "module": "api2/nfse-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterReplaceNfsePayload/properties/rps/items/properties/servico/properties/impostos/properties/piscofins/properties/base_calculo",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/nfse-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterReplaceNfsePayload/properties/rps/items/properties/servico/properties/impostos/properties/piscofins/properties/valor_cofins",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/nfse-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterReplaceNfsePayload/properties/rps/items/properties/servico/properties/impostos/properties/piscofins/properties/valor_pis",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/nfse-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterReplaceNfsePayload/properties/rps/items/properties/servico/properties/impostos/properties/totTrib/properties/pTotTribEst",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/nfse-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterReplaceNfsePayload/properties/rps/items/properties/servico/properties/impostos/properties/totTrib/properties/pTotTribEst",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "999.99",
+    "outside": "999.9900000000000000000000000001"
+  },
+  {
+    "module": "api2/nfse-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterReplaceNfsePayload/properties/rps/items/properties/servico/properties/impostos/properties/totTrib/properties/pTotTribFed",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/nfse-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterReplaceNfsePayload/properties/rps/items/properties/servico/properties/impostos/properties/totTrib/properties/pTotTribFed",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "999.99",
+    "outside": "999.9900000000000000000000000001"
+  },
+  {
+    "module": "api2/nfse-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterReplaceNfsePayload/properties/rps/items/properties/servico/properties/impostos/properties/totTrib/properties/pTotTribMun",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/nfse-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterReplaceNfsePayload/properties/rps/items/properties/servico/properties/impostos/properties/totTrib/properties/pTotTribMun",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "999.99",
+    "outside": "999.9900000000000000000000000001"
+  },
+  {
+    "module": "api2/nfse-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterReplaceNfsePayload/properties/rps/items/properties/servico/properties/impostos/properties/tot_trib/properties/estadual",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/nfse-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterReplaceNfsePayload/properties/rps/items/properties/servico/properties/impostos/properties/tot_trib/properties/estadual",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "999.99",
+    "outside": "999.9900000000000000000000000001"
+  },
+  {
+    "module": "api2/nfse-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterReplaceNfsePayload/properties/rps/items/properties/servico/properties/impostos/properties/tot_trib/properties/federal",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/nfse-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterReplaceNfsePayload/properties/rps/items/properties/servico/properties/impostos/properties/tot_trib/properties/federal",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "999.99",
+    "outside": "999.9900000000000000000000000001"
+  },
+  {
+    "module": "api2/nfse-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterReplaceNfsePayload/properties/rps/items/properties/servico/properties/impostos/properties/tot_trib/properties/municipal",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/nfse-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterReplaceNfsePayload/properties/rps/items/properties/servico/properties/impostos/properties/tot_trib/properties/municipal",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "999.99",
+    "outside": "999.9900000000000000000000000001"
+  },
+  {
+    "module": "api2/nfse-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterReplaceNfsePayload/properties/rps/items/properties/servico/properties/impostos/properties/ibs_cbs/properties/pRedutor",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/nfse-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterReplaceNfsePayload/properties/rps/items/properties/servico/properties/impostos/properties/ibs_cbs/properties/pRedutor",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "100",
+    "outside": "100.0000000000000000000000000001"
+  },
+  {
+    "module": "api2/nfse-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterReplaceNfsePayload/properties/rps/items/properties/servico/properties/impostos/properties/ibs_cbs/properties/p_redutor",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/nfse-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterReplaceNfsePayload/properties/rps/items/properties/servico/properties/impostos/properties/ibs_cbs/properties/p_redutor",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "100",
+    "outside": "100.0000000000000000000000000001"
+  },
+  {
+    "module": "api2/nfse-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterReplaceNfsePayload/properties/rps/items/properties/servico/properties/reembolso_repasse/properties/documentos/items/properties/valor",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/nfse-issuance.openapi.json",
+    "pointer": "/components/schemas/EmitterReplaceNfsePayload/properties/rps/items/properties/servico/properties/reembolso_repasse/properties/documentos/items/properties/valor_total",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/nfse-issuance.openapi.json",
+    "pointer": "/components/schemas/NfseServiceGroup/properties/impostos/properties/ibs_cbs/properties/cbs/properties/aliquota_diferimento",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/nfse-issuance.openapi.json",
+    "pointer": "/components/schemas/NfseServiceGroup/properties/impostos/properties/ibs_cbs/properties/cbs/properties/aliquota_diferimento",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "100",
+    "outside": "100.0000000000000000000000000001"
+  },
+  {
+    "module": "api2/nfse-issuance.openapi.json",
+    "pointer": "/components/schemas/NfseServiceGroup/properties/impostos/properties/ibs_cbs/properties/ibs_estadual/properties/aliquota_diferimento",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/nfse-issuance.openapi.json",
+    "pointer": "/components/schemas/NfseServiceGroup/properties/impostos/properties/ibs_cbs/properties/ibs_estadual/properties/aliquota_diferimento",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "100",
+    "outside": "100.0000000000000000000000000001"
+  },
+  {
+    "module": "api2/nfse-issuance.openapi.json",
+    "pointer": "/components/schemas/NfseServiceGroup/properties/impostos/properties/ibs_cbs/properties/ibs_municipal/properties/aliquota_diferimento",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/nfse-issuance.openapi.json",
+    "pointer": "/components/schemas/NfseServiceGroup/properties/impostos/properties/ibs_cbs/properties/ibs_municipal/properties/aliquota_diferimento",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "100",
+    "outside": "100.0000000000000000000000000001"
+  },
+  {
+    "module": "api2/nfse-issuance.openapi.json",
+    "pointer": "/components/schemas/NfseServiceGroup/properties/impostos/properties/ibs_cbs/properties/pRedutor",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/nfse-issuance.openapi.json",
+    "pointer": "/components/schemas/NfseServiceGroup/properties/impostos/properties/ibs_cbs/properties/pRedutor",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "100",
+    "outside": "100.0000000000000000000000000001"
+  },
+  {
+    "module": "api2/nfse-issuance.openapi.json",
+    "pointer": "/components/schemas/NfseServiceGroup/properties/impostos/properties/ibs_cbs/properties/p_redutor",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/nfse-issuance.openapi.json",
+    "pointer": "/components/schemas/NfseServiceGroup/properties/impostos/properties/ibs_cbs/properties/p_redutor",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "100",
+    "outside": "100.0000000000000000000000000001"
+  },
+  {
+    "module": "api2/nfse-issuance.openapi.json",
+    "pointer": "/components/schemas/NfseServiceGroup/properties/impostos/properties/piscofins/properties/aliquota_cofins",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/nfse-issuance.openapi.json",
+    "pointer": "/components/schemas/NfseServiceGroup/properties/impostos/properties/piscofins/properties/aliquota_cofins",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "100",
+    "outside": "100.0000000000000000000000000001"
+  },
+  {
+    "module": "api2/nfse-issuance.openapi.json",
+    "pointer": "/components/schemas/NfseServiceGroup/properties/impostos/properties/piscofins/properties/aliquota_pis",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/nfse-issuance.openapi.json",
+    "pointer": "/components/schemas/NfseServiceGroup/properties/impostos/properties/piscofins/properties/aliquota_pis",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "100",
+    "outside": "100.0000000000000000000000000001"
+  },
+  {
+    "module": "api2/nfse-issuance.openapi.json",
+    "pointer": "/components/schemas/NfseServiceGroup/properties/impostos/properties/piscofins/properties/base_calculo",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/nfse-issuance.openapi.json",
+    "pointer": "/components/schemas/NfseServiceGroup/properties/impostos/properties/piscofins/properties/valor_cofins",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/nfse-issuance.openapi.json",
+    "pointer": "/components/schemas/NfseServiceGroup/properties/impostos/properties/piscofins/properties/valor_pis",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/nfse-issuance.openapi.json",
+    "pointer": "/components/schemas/NfseServiceGroup/properties/impostos/properties/totTrib/properties/pTotTribEst",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/nfse-issuance.openapi.json",
+    "pointer": "/components/schemas/NfseServiceGroup/properties/impostos/properties/totTrib/properties/pTotTribEst",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "999.99",
+    "outside": "999.9900000000000000000000000001"
+  },
+  {
+    "module": "api2/nfse-issuance.openapi.json",
+    "pointer": "/components/schemas/NfseServiceGroup/properties/impostos/properties/totTrib/properties/pTotTribFed",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/nfse-issuance.openapi.json",
+    "pointer": "/components/schemas/NfseServiceGroup/properties/impostos/properties/totTrib/properties/pTotTribFed",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "999.99",
+    "outside": "999.9900000000000000000000000001"
+  },
+  {
+    "module": "api2/nfse-issuance.openapi.json",
+    "pointer": "/components/schemas/NfseServiceGroup/properties/impostos/properties/totTrib/properties/pTotTribMun",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/nfse-issuance.openapi.json",
+    "pointer": "/components/schemas/NfseServiceGroup/properties/impostos/properties/totTrib/properties/pTotTribMun",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "999.99",
+    "outside": "999.9900000000000000000000000001"
+  },
+  {
+    "module": "api2/nfse-issuance.openapi.json",
+    "pointer": "/components/schemas/NfseServiceGroup/properties/impostos/properties/tot_trib/properties/estadual",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/nfse-issuance.openapi.json",
+    "pointer": "/components/schemas/NfseServiceGroup/properties/impostos/properties/tot_trib/properties/estadual",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "999.99",
+    "outside": "999.9900000000000000000000000001"
+  },
+  {
+    "module": "api2/nfse-issuance.openapi.json",
+    "pointer": "/components/schemas/NfseServiceGroup/properties/impostos/properties/tot_trib/properties/federal",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/nfse-issuance.openapi.json",
+    "pointer": "/components/schemas/NfseServiceGroup/properties/impostos/properties/tot_trib/properties/federal",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "999.99",
+    "outside": "999.9900000000000000000000000001"
+  },
+  {
+    "module": "api2/nfse-issuance.openapi.json",
+    "pointer": "/components/schemas/NfseServiceGroup/properties/impostos/properties/tot_trib/properties/municipal",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/nfse-issuance.openapi.json",
+    "pointer": "/components/schemas/NfseServiceGroup/properties/impostos/properties/tot_trib/properties/municipal",
+    "keyword": "x-sdk-numeric-maximum",
+    "boundary": "999.99",
+    "outside": "999.9900000000000000000000000001"
+  },
+  {
+    "module": "api2/nfse-issuance.openapi.json",
+    "pointer": "/components/schemas/NfseServiceGroup/properties/reembolso_repasse/properties/documentos/items/properties/valor",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  },
+  {
+    "module": "api2/nfse-issuance.openapi.json",
+    "pointer": "/components/schemas/NfseServiceGroup/properties/reembolso_repasse/properties/documentos/items/properties/valor_total",
+    "keyword": "x-sdk-numeric-minimum",
+    "boundary": "0",
+    "outside": "-1E-28"
+  }
+]

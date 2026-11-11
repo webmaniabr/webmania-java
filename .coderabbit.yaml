@@ -1,0 +1,8 @@
+# Review configuration: generated sources are excluded from review; their generator
+# (scripts/generate.py) and the hand-written runtime remain reviewed.
+reviews:
+  path_filters:
+    - "!src/main/java/com/webmania/sdk/model/**"
+    - "!src/main/java/com/webmania/sdk/WebmaniaClient.java"
+    - "!src/main/resources/contracts/**"
+    - "!model-catalog.json"

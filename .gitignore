@@ -1,0 +1,8 @@
+/target/
+/.maven-local/
+/.consumer/
+*.log
+.DS_Store
+
+# macOS metadata
+._*

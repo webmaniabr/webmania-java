@@ -1,0 +1,16 @@
+package com.webmania.sdk.model.api2nfseissuance;
+import com.webmania.sdk.*;
+import com.fasterxml.jackson.databind.JsonNode;
+/** Generated from api2/nfse-issuance.openapi.json; see contract-provenance.json. */
+public final class NfseServiceGroupImpostosReducao extends JsonValue {
+ private static final JsonNode SCHEMA = Json.parse("{\"type\":[\"string\",\"number\"],\"description\":\"Percentual de redu\\u00e7\\u00e3o da base de c\\u00e1lculo Obs.: Dispon\\u00edvel apenas para o Padr\\u00e3o Nacional (modelo padrao_nacional). 0.00 Obrigat\\u00f3rio informar identificador_beneficio_municipal quando houver reducao.\",\"x-documented-size\":\"3v2\",\"x-documented-condition\":\"Percentual de redu\\u00e7\\u00e3o da base de c\\u00e1lculo Obs.: Dispon\\u00edvel apenas para o Padr\\u00e3o Nacional (modelo padrao_nacional). 0.00 Obrigat\\u00f3rio informar identificador_beneficio_municipal quando houver reducao.\"}");
+ public NfseServiceGroupImpostosReducao(JsonNode node) { super(node); }
+ private static final JsonNode VARIANT_0 = Json.parse("{\"type\":\"string\",\"description\":\"Percentual de redu\\u00e7\\u00e3o da base de c\\u00e1lculo Obs.: Dispon\\u00edvel apenas para o Padr\\u00e3o Nacional (modelo padrao_nacional). 0.00 Obrigat\\u00f3rio informar identificador_beneficio_municipal quando houver reducao.\",\"x-documented-size\":\"3v2\",\"x-documented-condition\":\"Percentual de redu\\u00e7\\u00e3o da base de c\\u00e1lculo Obs.: Dispon\\u00edvel apenas para o Padr\\u00e3o Nacional (modelo padrao_nacional). 0.00 Obrigat\\u00f3rio informar identificador_beneficio_municipal quando houver reducao.\"}");
+ public static NfseServiceGroupImpostosReducao ofVariant0(String value) { return new NfseServiceGroupImpostosReducao(Json.scalar(value)); }
+ public boolean matchesVariant0() { return matchesVariant("api2/nfse-issuance.openapi.json", SCHEMA, VARIANT_0); }
+ public String asVariant0() { JsonNode value = checkedVariant("api2/nfse-issuance.openapi.json", SCHEMA, VARIANT_0); return stringValue(value); }
+ private static final JsonNode VARIANT_1 = Json.parse("{\"type\":\"number\",\"description\":\"Percentual de redu\\u00e7\\u00e3o da base de c\\u00e1lculo Obs.: Dispon\\u00edvel apenas para o Padr\\u00e3o Nacional (modelo padrao_nacional). 0.00 Obrigat\\u00f3rio informar identificador_beneficio_municipal quando houver reducao.\",\"x-documented-size\":\"3v2\",\"x-documented-condition\":\"Percentual de redu\\u00e7\\u00e3o da base de c\\u00e1lculo Obs.: Dispon\\u00edvel apenas para o Padr\\u00e3o Nacional (modelo padrao_nacional). 0.00 Obrigat\\u00f3rio informar identificador_beneficio_municipal quando houver reducao.\"}");
+ public static NfseServiceGroupImpostosReducao ofVariant1(java.math.BigDecimal value) { return new NfseServiceGroupImpostosReducao(Json.scalar(value)); }
+ public boolean matchesVariant1() { return matchesVariant("api2/nfse-issuance.openapi.json", SCHEMA, VARIANT_1); }
+ public java.math.BigDecimal asVariant1() { JsonNode value = checkedVariant("api2/nfse-issuance.openapi.json", SCHEMA, VARIANT_1); return decimalValue(value); }
+}

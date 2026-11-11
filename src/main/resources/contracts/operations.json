@@ -1,0 +1,1962 @@
+[
+  {
+    "id": "nfeGetCertificateValidity",
+    "module": "api1/fiscal.openapi.json",
+    "method": "GET",
+    "path": "/1/nfe/certificado/",
+    "origin": "https://webmania.com.br/api",
+    "request": "NfeGetCertificateValidityRequest",
+    "package": "model.api1fiscal",
+    "response": "NfeGetCertificateValidityResponse",
+    "binary": false,
+    "enabled": true,
+    "security": [
+      {
+        "ConsumerKey": [],
+        "ConsumerSecret": [],
+        "AccessToken": [],
+        "AccessTokenSecret": []
+      }
+    ]
+  },
+  {
+    "id": "nfeGetSefazStatus",
+    "module": "api1/fiscal.openapi.json",
+    "method": "GET",
+    "path": "/1/nfe/sefaz/",
+    "origin": "https://webmania.com.br/api",
+    "request": "NfeGetSefazStatusRequest",
+    "package": "model.api1fiscal",
+    "response": "NfeGetSefazStatusResponse",
+    "binary": false,
+    "enabled": true,
+    "security": [
+      {
+        "ConsumerKey": [],
+        "ConsumerSecret": [],
+        "AccessToken": [],
+        "AccessTokenSecret": []
+      }
+    ]
+  },
+  {
+    "id": "nfeGetDocument",
+    "module": "api1/fiscal.openapi.json",
+    "method": "GET",
+    "path": "/1/nfe/consulta/",
+    "origin": "https://webmania.com.br/api",
+    "request": "NfeGetDocumentRequest",
+    "package": "model.api1fiscal",
+    "response": "NfeGetDocumentResponse",
+    "binary": false,
+    "enabled": true,
+    "security": [
+      {
+        "ConsumerKey": [],
+        "ConsumerSecret": [],
+        "AccessToken": [],
+        "AccessTokenSecret": []
+      }
+    ]
+  },
+  {
+    "id": "nfeQueryDocument",
+    "module": "api1/fiscal.openapi.json",
+    "method": "POST",
+    "path": "/1/nfe/consulta/",
+    "origin": "https://webmania.com.br/api",
+    "request": "NfeQueryDocumentRequest",
+    "package": "model.api1fiscal",
+    "response": "NfeQueryDocumentResponse",
+    "binary": false,
+    "enabled": true,
+    "security": [
+      {
+        "ConsumerKey": [],
+        "ConsumerSecret": [],
+        "AccessToken": [],
+        "AccessTokenSecret": []
+      }
+    ]
+  },
+  {
+    "id": "nfeCreateCorrection",
+    "module": "api1/fiscal.openapi.json",
+    "method": "POST",
+    "path": "/1/nfe/cartacorrecao/",
+    "origin": "https://webmania.com.br/api",
+    "request": "NfeCreateCorrectionRequest",
+    "package": "model.api1fiscal",
+    "response": "NfeCreateCorrectionResponse",
+    "binary": false,
+    "enabled": true,
+    "security": [
+      {
+        "ConsumerKey": [],
+        "ConsumerSecret": [],
+        "AccessToken": [],
+        "AccessTokenSecret": []
+      }
+    ]
+  },
+  {
+    "id": "nfeCreateManifestation",
+    "module": "api1/fiscal.openapi.json",
+    "method": "POST",
+    "path": "/1/nfe/manifesta/",
+    "origin": "https://webmania.com.br/api",
+    "request": "NfeCreateManifestationRequest",
+    "package": "model.api1fiscal",
+    "response": "NfeCreateManifestationResponse",
+    "binary": false,
+    "enabled": true,
+    "security": [
+      {
+        "ConsumerKey": [],
+        "ConsumerSecret": [],
+        "AccessToken": [],
+        "AccessTokenSecret": []
+      }
+    ]
+  },
+  {
+    "id": "nfeCancelDocument",
+    "module": "api1/fiscal.openapi.json",
+    "method": "PUT",
+    "path": "/1/nfe/cancelar/",
+    "origin": "https://webmania.com.br/api",
+    "request": "NfeCancelDocumentRequest",
+    "package": "model.api1fiscal",
+    "response": "NfeCancelDocumentResponse",
+    "binary": false,
+    "enabled": true,
+    "security": [
+      {
+        "ConsumerKey": [],
+        "ConsumerSecret": [],
+        "AccessToken": [],
+        "AccessTokenSecret": []
+      }
+    ]
+  },
+  {
+    "id": "nfeVoidNumbering",
+    "module": "api1/fiscal.openapi.json",
+    "method": "PUT",
+    "path": "/1/nfe/inutilizar/",
+    "origin": "https://webmania.com.br/api",
+    "request": "NfeVoidNumberingRequest",
+    "package": "model.api1fiscal",
+    "response": "NfeVoidNumberingResponse",
+    "binary": false,
+    "enabled": true,
+    "security": [
+      {
+        "ConsumerKey": [],
+        "ConsumerSecret": [],
+        "AccessToken": [],
+        "AccessTokenSecret": []
+      }
+    ]
+  },
+  {
+    "id": "nfeCreatePaymentEvent",
+    "module": "api1/fiscal.openapi.json",
+    "method": "POST",
+    "path": "/1/nfe/conciliacao/",
+    "origin": "https://webmania.com.br/api",
+    "request": "NfeCreatePaymentEventRequest",
+    "package": "model.api1fiscal",
+    "response": "NfeCreatePaymentEventResponse",
+    "binary": false,
+    "enabled": true,
+    "security": [
+      {
+        "ConsumerKey": [],
+        "ConsumerSecret": [],
+        "AccessToken": [],
+        "AccessTokenSecret": []
+      }
+    ]
+  },
+  {
+    "id": "nfeCancelPaymentEvent",
+    "module": "api1/fiscal.openapi.json",
+    "method": "PUT",
+    "path": "/1/nfe/conciliacao/cancelar/",
+    "origin": "https://webmania.com.br/api",
+    "request": "NfeCancelPaymentEventRequest",
+    "package": "model.api1fiscal",
+    "response": "NfeCancelPaymentEventResponse",
+    "binary": false,
+    "enabled": true,
+    "security": [
+      {
+        "ConsumerKey": [],
+        "ConsumerSecret": [],
+        "AccessToken": [],
+        "AccessTokenSecret": []
+      }
+    ]
+  },
+  {
+    "id": "nfeCancelIbsCbsEvent",
+    "module": "api1/fiscal.openapi.json",
+    "method": "PUT",
+    "path": "/1/nfe/evento-ibs-cbs/cancelar/",
+    "origin": "https://webmania.com.br/api",
+    "request": "NfeCancelIbsCbsEventRequest",
+    "package": "model.api1fiscal",
+    "response": "NfeCancelIbsCbsEventResponse",
+    "binary": false,
+    "enabled": true,
+    "security": [
+      {
+        "ConsumerKey": [],
+        "ConsumerSecret": [],
+        "AccessToken": [],
+        "AccessTokenSecret": []
+      }
+    ]
+  },
+  {
+    "id": "nfeListTaxClasses",
+    "module": "api1/fiscal.openapi.json",
+    "method": "GET",
+    "path": "/1/nfe/classe-imposto/",
+    "origin": "https://webmania.com.br/api",
+    "request": "NfeListTaxClassesRequest",
+    "package": "model.api1fiscal",
+    "response": "NfeListTaxClassesResponse",
+    "binary": false,
+    "enabled": true,
+    "security": [
+      {
+        "ConsumerKey": [],
+        "ConsumerSecret": [],
+        "AccessToken": [],
+        "AccessTokenSecret": []
+      }
+    ]
+  },
+  {
+    "id": "nfeDeleteTaxClasses",
+    "module": "api1/fiscal.openapi.json",
+    "method": "DELETE",
+    "path": "/1/nfe/classe-imposto/",
+    "origin": "https://webmania.com.br/api",
+    "request": "NfeDeleteTaxClassesRequest",
+    "package": "model.api1fiscal",
+    "response": "NfeDeleteTaxClassesResponse",
+    "binary": false,
+    "enabled": true,
+    "security": [
+      {
+        "ConsumerKey": [],
+        "ConsumerSecret": [],
+        "AccessToken": [],
+        "AccessTokenSecret": []
+      }
+    ]
+  },
+  {
+    "id": "nfeSaveTaxClasses",
+    "module": "api1/fiscal.openapi.json",
+    "method": "POST",
+    "path": "/1/nfe/classe-imposto/",
+    "origin": "https://webmania.com.br/api",
+    "request": "NfeSaveTaxClassesRequest",
+    "package": "model.api1fiscal",
+    "response": "NfeSaveTaxClassesResponse",
+    "binary": false,
+    "enabled": true,
+    "security": [
+      {
+        "ConsumerKey": [],
+        "ConsumerSecret": [],
+        "AccessToken": [],
+        "AccessTokenSecret": []
+      }
+    ]
+  },
+  {
+    "id": "nfeIssueDocument",
+    "module": "api1/fiscal.openapi.json",
+    "method": "POST",
+    "path": "/1/nfe/emissao/",
+    "origin": "https://webmania.com.br/api",
+    "request": "NfeIssueDocumentRequest",
+    "package": "model.api1fiscal",
+    "response": "NfeIssueDocumentResponse",
+    "binary": false,
+    "enabled": true,
+    "security": [
+      {
+        "ConsumerKey": [],
+        "ConsumerSecret": [],
+        "AccessToken": [],
+        "AccessTokenSecret": []
+      }
+    ]
+  },
+  {
+    "id": "nfeIssueReturn",
+    "module": "api1/fiscal.openapi.json",
+    "method": "POST",
+    "path": "/1/nfe/devolucao/",
+    "origin": "https://webmania.com.br/api",
+    "request": "NfeIssueReturnRequest",
+    "package": "model.api1fiscal",
+    "response": "NfeIssueReturnResponse",
+    "binary": false,
+    "enabled": true,
+    "security": [
+      {
+        "ConsumerKey": [],
+        "ConsumerSecret": [],
+        "AccessToken": [],
+        "AccessTokenSecret": []
+      }
+    ]
+  },
+  {
+    "id": "nfeIssueAdjustment",
+    "module": "api1/fiscal.openapi.json",
+    "method": "POST",
+    "path": "/1/nfe/ajuste/",
+    "origin": "https://webmania.com.br/api",
+    "request": "NfeIssueAdjustmentRequest",
+    "package": "model.api1fiscal",
+    "response": "NfeIssueAdjustmentResponse",
+    "binary": false,
+    "enabled": true,
+    "security": [
+      {
+        "ConsumerKey": [],
+        "ConsumerSecret": [],
+        "AccessToken": [],
+        "AccessTokenSecret": []
+      }
+    ]
+  },
+  {
+    "id": "nfeIssueComplement",
+    "module": "api1/fiscal.openapi.json",
+    "method": "POST",
+    "path": "/1/nfe/complementar/",
+    "origin": "https://webmania.com.br/api",
+    "request": "NfeIssueComplementRequest",
+    "package": "model.api1fiscal",
+    "response": "NfeIssueComplementResponse",
+    "binary": false,
+    "enabled": true,
+    "security": [
+      {
+        "ConsumerKey": [],
+        "ConsumerSecret": [],
+        "AccessToken": [],
+        "AccessTokenSecret": []
+      }
+    ]
+  },
+  {
+    "id": "fiscalUpdateCompany",
+    "module": "api1/fiscal.openapi.json",
+    "method": "POST",
+    "path": "/1/nfe/empresa/",
+    "origin": "https://webmania.com.br/api",
+    "request": "FiscalUpdateCompanyRequest",
+    "package": "model.api1fiscal",
+    "response": "FiscalUpdateCompanyResponse",
+    "binary": false,
+    "enabled": true,
+    "security": [
+      {
+        "ConsumerKey": [],
+        "ConsumerSecret": [],
+        "AccessToken": [],
+        "AccessTokenSecret": []
+      }
+    ]
+  },
+  {
+    "id": "fiscalCreateOrPollReport",
+    "module": "api1/fiscal.openapi.json",
+    "method": "POST",
+    "path": "/1/nfe/relatorios/",
+    "origin": "https://webmania.com.br/api",
+    "request": "FiscalCreateOrPollReportRequest",
+    "package": "model.api1fiscal",
+    "response": "FiscalCreateOrPollReportResponse",
+    "binary": false,
+    "enabled": true,
+    "security": [
+      {
+        "ConsumerKey": [],
+        "ConsumerSecret": [],
+        "AccessToken": [],
+        "AccessTokenSecret": []
+      }
+    ]
+  },
+  {
+    "id": "nfeCreateIbsCbsEvent",
+    "module": "api1/fiscal.openapi.json",
+    "method": "POST",
+    "path": "/1/nfe/evento-ibs-cbs/",
+    "origin": "https://webmania.com.br/api",
+    "request": "NfeCreateIbsCbsEventRequest",
+    "package": "model.api1fiscal",
+    "response": "NfeCreateIbsCbsEventResponse",
+    "binary": false,
+    "enabled": true,
+    "security": [
+      {
+        "ConsumerKey": [],
+        "ConsumerSecret": [],
+        "AccessToken": [],
+        "AccessTokenSecret": []
+      }
+    ]
+  },
+  {
+    "id": "nfeDownloadDanfe",
+    "module": "api1/files.openapi.json",
+    "method": "GET",
+    "path": "/danfe/{identifier}/",
+    "origin": "https://nfe.webmania.com.br",
+    "request": "NfeDownloadDanfeRequest",
+    "package": "model.api1files",
+    "response": "Download",
+    "binary": true,
+    "enabled": true,
+    "security": [
+      {
+        "ConsumerKey": [],
+        "ConsumerSecret": [],
+        "AccessToken": [],
+        "AccessTokenSecret": []
+      },
+      {
+        "DocumentToken": []
+      }
+    ]
+  },
+  {
+    "id": "nfeDownloadSimpleDanfe",
+    "module": "api1/files.openapi.json",
+    "method": "GET",
+    "path": "/danfe/simples/{identifier}/",
+    "origin": "https://nfe.webmania.com.br",
+    "request": "NfeDownloadSimpleDanfeRequest",
+    "package": "model.api1files",
+    "response": "Download",
+    "binary": true,
+    "enabled": true,
+    "security": [
+      {
+        "ConsumerKey": [],
+        "ConsumerSecret": [],
+        "AccessToken": [],
+        "AccessTokenSecret": []
+      },
+      {
+        "DocumentToken": []
+      }
+    ]
+  },
+  {
+    "id": "nfeDownloadLabelDanfe",
+    "module": "api1/files.openapi.json",
+    "method": "GET",
+    "path": "/danfe/etiqueta/{identifier}/",
+    "origin": "https://nfe.webmania.com.br",
+    "request": "NfeDownloadLabelDanfeRequest",
+    "package": "model.api1files",
+    "response": "Download",
+    "binary": true,
+    "enabled": true,
+    "security": [
+      {
+        "ConsumerKey": [],
+        "ConsumerSecret": [],
+        "AccessToken": [],
+        "AccessTokenSecret": []
+      },
+      {
+        "DocumentToken": []
+      }
+    ]
+  },
+  {
+    "id": "nfeDownloadCorrectionPdf",
+    "module": "api1/files.openapi.json",
+    "method": "GET",
+    "path": "/dacce/{identifier}/",
+    "origin": "https://nfe.webmania.com.br",
+    "request": "NfeDownloadCorrectionPdfRequest",
+    "package": "model.api1files",
+    "response": "Download",
+    "binary": true,
+    "enabled": true,
+    "security": [
+      {
+        "ConsumerKey": [],
+        "ConsumerSecret": [],
+        "AccessToken": [],
+        "AccessTokenSecret": []
+      },
+      {
+        "DocumentToken": []
+      }
+    ]
+  },
+  {
+    "id": "nfeDownloadCorrectionPdfSequence",
+    "module": "api1/files.openapi.json",
+    "method": "GET",
+    "path": "/dacce/{identifier}/{event}/",
+    "origin": "https://nfe.webmania.com.br",
+    "request": "NfeDownloadCorrectionPdfSequenceRequest",
+    "package": "model.api1files",
+    "response": "Download",
+    "binary": true,
+    "enabled": true,
+    "security": [
+      {
+        "ConsumerKey": [],
+        "ConsumerSecret": [],
+        "AccessToken": [],
+        "AccessTokenSecret": []
+      },
+      {
+        "DocumentToken": []
+      }
+    ]
+  },
+  {
+    "id": "nfeDownloadXml",
+    "module": "api1/files.openapi.json",
+    "method": "GET",
+    "path": "/xmlnfe/{identifier}/",
+    "origin": "https://nfe.webmania.com.br",
+    "request": "NfeDownloadXmlRequest",
+    "package": "model.api1files",
+    "response": "Download",
+    "binary": true,
+    "enabled": true,
+    "security": [
+      {
+        "ConsumerKey": [],
+        "ConsumerSecret": [],
+        "AccessToken": [],
+        "AccessTokenSecret": []
+      },
+      {
+        "DocumentToken": []
+      }
+    ]
+  },
+  {
+    "id": "nfeDownloadCancellationXml",
+    "module": "api1/files.openapi.json",
+    "method": "GET",
+    "path": "/xmlnfe/{identifier}/cancelamento",
+    "origin": "https://nfe.webmania.com.br",
+    "request": "NfeDownloadCancellationXmlRequest",
+    "package": "model.api1files",
+    "response": "Download",
+    "binary": true,
+    "enabled": true,
+    "security": [
+      {
+        "ConsumerKey": [],
+        "ConsumerSecret": [],
+        "AccessToken": [],
+        "AccessTokenSecret": []
+      },
+      {
+        "DocumentToken": []
+      }
+    ]
+  },
+  {
+    "id": "nfeDownloadCorrectionXml",
+    "module": "api1/files.openapi.json",
+    "method": "GET",
+    "path": "/xmlcce/{identifier}/",
+    "origin": "https://nfe.webmania.com.br",
+    "request": "NfeDownloadCorrectionXmlRequest",
+    "package": "model.api1files",
+    "response": "Download",
+    "binary": true,
+    "enabled": true,
+    "security": [
+      {
+        "ConsumerKey": [],
+        "ConsumerSecret": [],
+        "AccessToken": [],
+        "AccessTokenSecret": []
+      },
+      {
+        "DocumentToken": []
+      }
+    ]
+  },
+  {
+    "id": "nfeDownloadCorrectionXmlSequence",
+    "module": "api1/files.openapi.json",
+    "method": "GET",
+    "path": "/xmlcce/{identifier}/{event}/",
+    "origin": "https://nfe.webmania.com.br",
+    "request": "NfeDownloadCorrectionXmlSequenceRequest",
+    "package": "model.api1files",
+    "response": "Download",
+    "binary": true,
+    "enabled": true,
+    "security": [
+      {
+        "ConsumerKey": [],
+        "ConsumerSecret": [],
+        "AccessToken": [],
+        "AccessTokenSecret": []
+      },
+      {
+        "DocumentToken": []
+      }
+    ]
+  },
+  {
+    "id": "nfeDownloadManifestationXml",
+    "module": "api1/files.openapi.json",
+    "method": "GET",
+    "path": "/xmlmde/{uuid}/",
+    "origin": "https://nfe.webmania.com.br",
+    "request": "NfeDownloadManifestationXmlRequest",
+    "package": "model.api1files",
+    "response": "Download",
+    "binary": true,
+    "enabled": true,
+    "security": [
+      {
+        "ConsumerKey": [],
+        "ConsumerSecret": [],
+        "AccessToken": [],
+        "AccessTokenSecret": []
+      },
+      {
+        "DocumentToken": []
+      }
+    ]
+  },
+  {
+    "id": "nfeDownloadPaymentEventXml",
+    "module": "api1/files.openapi.json",
+    "method": "GET",
+    "path": "/xmleconf/{identifier}/",
+    "origin": "https://nfe.webmania.com.br",
+    "request": "NfeDownloadPaymentEventXmlRequest",
+    "package": "model.api1files",
+    "response": "Download",
+    "binary": true,
+    "enabled": true,
+    "security": [
+      {
+        "ConsumerKey": [],
+        "ConsumerSecret": [],
+        "AccessToken": [],
+        "AccessTokenSecret": []
+      },
+      {
+        "DocumentToken": []
+      }
+    ]
+  },
+  {
+    "id": "nfeDownloadPaymentEventXmlSequence",
+    "module": "api1/files.openapi.json",
+    "method": "GET",
+    "path": "/xmleconf/{identifier}/{event}/",
+    "origin": "https://nfe.webmania.com.br",
+    "request": "NfeDownloadPaymentEventXmlSequenceRequest",
+    "package": "model.api1files",
+    "response": "Download",
+    "binary": true,
+    "enabled": true,
+    "security": [
+      {
+        "ConsumerKey": [],
+        "ConsumerSecret": [],
+        "AccessToken": [],
+        "AccessTokenSecret": []
+      },
+      {
+        "DocumentToken": []
+      }
+    ]
+  },
+  {
+    "id": "nfeDownloadIbsCbsEventXml",
+    "module": "api1/files.openapi.json",
+    "method": "GET",
+    "path": "/xmlevento/{uuid}/",
+    "origin": "https://nfe.webmania.com.br",
+    "request": "NfeDownloadIbsCbsEventXmlRequest",
+    "package": "model.api1files",
+    "response": "Download",
+    "binary": true,
+    "enabled": false,
+    "security": [
+      {
+        "ConsumerKey": [],
+        "ConsumerSecret": [],
+        "AccessToken": [],
+        "AccessTokenSecret": []
+      },
+      {
+        "DocumentToken": []
+      }
+    ]
+  },
+  {
+    "id": "fiscalDownloadReport",
+    "module": "api1/files.openapi.json",
+    "method": "GET",
+    "path": "/relatorio/{uuid}/",
+    "origin": "https://nfe.webmania.com.br",
+    "request": "FiscalDownloadReportRequest",
+    "package": "model.api1files",
+    "response": "Download",
+    "binary": true,
+    "enabled": true,
+    "security": []
+  },
+  {
+    "id": "b2bV1CreateCompanies",
+    "module": "api1/b2b.openapi.json",
+    "method": "POST",
+    "path": "/api/1/b2b/empresas/",
+    "origin": "https://webmania.com.br",
+    "request": "B2bV1CreateCompaniesRequest",
+    "package": "model.api1b2b",
+    "response": "B2bV1CreateCompaniesResponse",
+    "binary": false,
+    "enabled": true,
+    "security": [
+      {
+        "ResellerConsumerKey": [],
+        "ResellerConsumerSecret": [],
+        "ResellerAccessToken": [],
+        "ResellerAccessTokenSecret": []
+      }
+    ]
+  },
+  {
+    "id": "b2bV1ListCompanies",
+    "module": "api1/b2b.openapi.json",
+    "method": "GET",
+    "path": "/api/1/b2b/empresas/",
+    "origin": "https://webmania.com.br",
+    "request": "B2bV1ListCompaniesRequest",
+    "package": "model.api1b2b",
+    "response": "B2bV1ListCompaniesResponse",
+    "binary": false,
+    "enabled": true,
+    "security": [
+      {
+        "ResellerConsumerKey": [],
+        "ResellerConsumerSecret": [],
+        "ResellerAccessToken": [],
+        "ResellerAccessTokenSecret": []
+      }
+    ]
+  },
+  {
+    "id": "b2bV1GetProcessedRequests",
+    "module": "api1/b2b.openapi.json",
+    "method": "GET",
+    "path": "/api/1/b2b/requests/",
+    "origin": "https://webmania.com.br",
+    "request": "B2bV1GetProcessedRequestsRequest",
+    "package": "model.api1b2b",
+    "response": "B2bV1GetProcessedRequestsResponse",
+    "binary": false,
+    "enabled": true,
+    "security": [
+      {
+        "ResellerConsumerKey": [],
+        "ResellerConsumerSecret": [],
+        "ResellerAccessToken": [],
+        "ResellerAccessTokenSecret": []
+      }
+    ]
+  },
+  {
+    "id": "emitterIssueCte",
+    "module": "api2/cte-issuance.openapi.json",
+    "method": "POST",
+    "path": "/2/cte/emissao",
+    "origin": "https://api.webmania.com.br",
+    "request": "EmitterIssueCteRequest",
+    "package": "model.api2cteissuance",
+    "response": "CteFiscalResponse",
+    "binary": false,
+    "enabled": true,
+    "security": [
+      {
+        "IssuerBearer": []
+      }
+    ]
+  },
+  {
+    "id": "emitterIssueSimplifiedCte",
+    "module": "api2/cte-issuance.openapi.json",
+    "method": "POST",
+    "path": "/2/cte/emissao/simplificada",
+    "origin": "https://api.webmania.com.br",
+    "request": "EmitterIssueSimplifiedCteRequest",
+    "package": "model.api2cteissuance",
+    "response": "CteFiscalResponse",
+    "binary": false,
+    "enabled": true,
+    "security": [
+      {
+        "IssuerBearer": []
+      }
+    ]
+  },
+  {
+    "id": "emitterCancelCte",
+    "module": "api2/cte-issuance.openapi.json",
+    "method": "PUT",
+    "path": "/2/cte/cancelar",
+    "origin": "https://api.webmania.com.br",
+    "request": "EmitterCancelCteRequest",
+    "package": "model.api2cteissuance",
+    "response": "FiscalEventResponse",
+    "binary": false,
+    "enabled": true,
+    "security": [
+      {
+        "IssuerBearer": []
+      }
+    ]
+  },
+  {
+    "id": "emitterCorrectCte",
+    "module": "api2/cte-issuance.openapi.json",
+    "method": "POST",
+    "path": "/2/cte/correcao",
+    "origin": "https://api.webmania.com.br",
+    "request": "EmitterCorrectCteRequest",
+    "package": "model.api2cteissuance",
+    "response": "FiscalEventResponse",
+    "binary": false,
+    "enabled": true,
+    "security": [
+      {
+        "IssuerBearer": []
+      }
+    ]
+  },
+  {
+    "id": "emitterConfirmCteDelivery",
+    "module": "api2/cte-issuance.openapi.json",
+    "method": "POST",
+    "path": "/2/cte/entrega",
+    "origin": "https://api.webmania.com.br",
+    "request": "EmitterConfirmCteDeliveryRequest",
+    "package": "model.api2cteissuance",
+    "response": "FiscalEventResponse",
+    "binary": false,
+    "enabled": true,
+    "security": [
+      {
+        "IssuerBearer": []
+      }
+    ]
+  },
+  {
+    "id": "emitterCancelCteDelivery",
+    "module": "api2/cte-issuance.openapi.json",
+    "method": "PUT",
+    "path": "/2/cte/entrega/cancelar",
+    "origin": "https://api.webmania.com.br",
+    "request": "EmitterCancelCteDeliveryRequest",
+    "package": "model.api2cteissuance",
+    "response": "FiscalEventResponse",
+    "binary": false,
+    "enabled": true,
+    "security": [
+      {
+        "IssuerBearer": []
+      }
+    ]
+  },
+  {
+    "id": "emitterLinkCtePayment",
+    "module": "api2/cte-issuance.openapi.json",
+    "method": "POST",
+    "path": "/2/cte/evento",
+    "origin": "https://api.webmania.com.br",
+    "request": "EmitterLinkCtePaymentRequest",
+    "package": "model.api2cteissuance",
+    "response": "FiscalEventResponse",
+    "binary": false,
+    "enabled": true,
+    "security": [
+      {
+        "IssuerBearer": []
+      }
+    ]
+  },
+  {
+    "id": "emitterCancelCtePaymentLink",
+    "module": "api2/cte-issuance.openapi.json",
+    "method": "PUT",
+    "path": "/2/cte/evento/cancelar",
+    "origin": "https://api.webmania.com.br",
+    "request": "EmitterCancelCtePaymentLinkRequest",
+    "package": "model.api2cteissuance",
+    "response": "FiscalEventResponse",
+    "binary": false,
+    "enabled": true,
+    "security": [
+      {
+        "IssuerBearer": []
+      }
+    ]
+  },
+  {
+    "id": "emitterGetCte",
+    "module": "api2/cte-issuance.openapi.json",
+    "method": "GET",
+    "path": "/2/cte/consulta/{identifier}",
+    "origin": "https://api.webmania.com.br",
+    "request": "EmitterGetCteRequest",
+    "package": "model.api2cteissuance",
+    "response": "CteFiscalResponse",
+    "binary": false,
+    "enabled": true,
+    "security": [
+      {
+        "IssuerBearer": []
+      }
+    ]
+  },
+  {
+    "id": "emitterGetCtePaymentEvents",
+    "module": "api2/cte-issuance.openapi.json",
+    "method": "GET",
+    "path": "/2/cte/consulta/evento/{identifier}",
+    "origin": "https://api.webmania.com.br",
+    "request": "EmitterGetCtePaymentEventsRequest",
+    "package": "model.api2cteissuance",
+    "response": "CtePaymentEvents",
+    "binary": false,
+    "enabled": true,
+    "security": [
+      {
+        "IssuerBearer": []
+      }
+    ]
+  },
+  {
+    "id": "emitterIssueDce",
+    "module": "api2/dce-issuance.openapi.json",
+    "method": "POST",
+    "path": "/2/dce/emissao",
+    "origin": "https://api.webmania.com.br",
+    "request": "EmitterIssueDceRequest",
+    "package": "model.api2dceissuance",
+    "response": "DceFiscalResponse",
+    "binary": false,
+    "enabled": true,
+    "security": [
+      {
+        "IssuerBearer": []
+      }
+    ]
+  },
+  {
+    "id": "emitterCancelDce",
+    "module": "api2/dce-issuance.openapi.json",
+    "method": "PUT",
+    "path": "/2/dce/cancelar",
+    "origin": "https://api.webmania.com.br",
+    "request": "EmitterCancelDceRequest",
+    "package": "model.api2dceissuance",
+    "response": "FiscalEventResponse",
+    "binary": false,
+    "enabled": true,
+    "security": [
+      {
+        "IssuerBearer": []
+      }
+    ]
+  },
+  {
+    "id": "emitterGetDce",
+    "module": "api2/dce-issuance.openapi.json",
+    "method": "GET",
+    "path": "/2/dce/consulta/{identifier}",
+    "origin": "https://api.webmania.com.br",
+    "request": "EmitterGetDceRequest",
+    "package": "model.api2dceissuance",
+    "response": "DceFiscalResponse",
+    "binary": false,
+    "enabled": true,
+    "security": [
+      {
+        "IssuerBearer": []
+      }
+    ]
+  },
+  {
+    "id": "fileGetNfseXml",
+    "module": "api2/emitter-files.openapi.json",
+    "method": "GET",
+    "path": "/xmlnfse/{identifier}",
+    "origin": "https://api.webmania.com.br",
+    "request": "FileGetNfseXmlRequest",
+    "package": "model.api2emitterfiles",
+    "response": "Download",
+    "binary": true,
+    "enabled": true,
+    "security": [
+      {
+        "FiscalFileCompanyBearer": []
+      },
+      {
+        "FiscalDocumentLinkToken": []
+      },
+      {}
+    ]
+  },
+  {
+    "id": "fileGetNfsePdf",
+    "module": "api2/emitter-files.openapi.json",
+    "method": "GET",
+    "path": "/nfse/{identifier}",
+    "origin": "https://api.webmania.com.br",
+    "request": "FileGetNfsePdfRequest",
+    "package": "model.api2emitterfiles",
+    "response": "Download",
+    "binary": true,
+    "enabled": true,
+    "security": [
+      {
+        "FiscalFileCompanyBearer": []
+      },
+      {
+        "FiscalDocumentLinkToken": []
+      },
+      {}
+    ]
+  },
+  {
+    "id": "fileGetNfseRpsPdf",
+    "module": "api2/emitter-files.openapi.json",
+    "method": "GET",
+    "path": "/darps/{identifier}",
+    "origin": "https://api.webmania.com.br",
+    "request": "FileGetNfseRpsPdfRequest",
+    "package": "model.api2emitterfiles",
+    "response": "Download",
+    "binary": true,
+    "enabled": true,
+    "security": [
+      {
+        "FiscalFileCompanyBearer": []
+      },
+      {
+        "FiscalDocumentLinkToken": []
+      },
+      {}
+    ]
+  },
+  {
+    "id": "fileGetCteXml",
+    "module": "api2/emitter-files.openapi.json",
+    "method": "GET",
+    "path": "/xmlcte/{identifier}",
+    "origin": "https://api.webmania.com.br",
+    "request": "FileGetCteXmlRequest",
+    "package": "model.api2emitterfiles",
+    "response": "Download",
+    "binary": true,
+    "enabled": true,
+    "security": [
+      {
+        "FiscalFileCompanyBearer": []
+      },
+      {
+        "FiscalDocumentLinkToken": []
+      },
+      {}
+    ]
+  },
+  {
+    "id": "fileGetCteCancelXml",
+    "module": "api2/emitter-files.openapi.json",
+    "method": "GET",
+    "path": "/xmlcte/{identifier}/cancelamento",
+    "origin": "https://api.webmania.com.br",
+    "request": "FileGetCteCancelXmlRequest",
+    "package": "model.api2emitterfiles",
+    "response": "Download",
+    "binary": true,
+    "enabled": true,
+    "security": [
+      {
+        "FiscalFileCompanyBearer": []
+      },
+      {
+        "FiscalDocumentLinkToken": []
+      },
+      {}
+    ]
+  },
+  {
+    "id": "fileGetCtePdf",
+    "module": "api2/emitter-files.openapi.json",
+    "method": "GET",
+    "path": "/dacte/{identifier}",
+    "origin": "https://api.webmania.com.br",
+    "request": "FileGetCtePdfRequest",
+    "package": "model.api2emitterfiles",
+    "response": "Download",
+    "binary": true,
+    "enabled": true,
+    "security": [
+      {
+        "FiscalFileCompanyBearer": []
+      },
+      {
+        "FiscalDocumentLinkToken": []
+      },
+      {}
+    ]
+  },
+  {
+    "id": "fileGetCteCorrectionXml",
+    "module": "api2/emitter-files.openapi.json",
+    "method": "GET",
+    "path": "/xmlcce/{identifier}",
+    "origin": "https://api.webmania.com.br",
+    "request": "FileGetCteCorrectionXmlRequest",
+    "package": "model.api2emitterfiles",
+    "response": "Download",
+    "binary": true,
+    "enabled": true,
+    "security": [
+      {
+        "FiscalFileCompanyBearer": []
+      },
+      {
+        "FiscalDocumentLinkToken": []
+      },
+      {}
+    ]
+  },
+  {
+    "id": "fileGetCteCorrectionPdf",
+    "module": "api2/emitter-files.openapi.json",
+    "method": "GET",
+    "path": "/dacce/{identifier}",
+    "origin": "https://api.webmania.com.br",
+    "request": "FileGetCteCorrectionPdfRequest",
+    "package": "model.api2emitterfiles",
+    "response": "Download",
+    "binary": true,
+    "enabled": true,
+    "security": [
+      {
+        "FiscalFileCompanyBearer": []
+      },
+      {
+        "FiscalDocumentLinkToken": []
+      },
+      {}
+    ]
+  },
+  {
+    "id": "fileGetMdfeXml",
+    "module": "api2/emitter-files.openapi.json",
+    "method": "GET",
+    "path": "/xmlmdfe/{identifier}",
+    "origin": "https://api.webmania.com.br",
+    "request": "FileGetMdfeXmlRequest",
+    "package": "model.api2emitterfiles",
+    "response": "Download",
+    "binary": true,
+    "enabled": true,
+    "security": [
+      {
+        "FiscalFileCompanyBearer": []
+      }
+    ]
+  },
+  {
+    "id": "fileGetMdfePdf",
+    "module": "api2/emitter-files.openapi.json",
+    "method": "GET",
+    "path": "/damdfe/{identifier}",
+    "origin": "https://api.webmania.com.br",
+    "request": "FileGetMdfePdfRequest",
+    "package": "model.api2emitterfiles",
+    "response": "Download",
+    "binary": true,
+    "enabled": true,
+    "security": [
+      {
+        "FiscalFileCompanyBearer": []
+      }
+    ]
+  },
+  {
+    "id": "fileGetNfcomXml",
+    "module": "api2/emitter-files.openapi.json",
+    "method": "GET",
+    "path": "/xmlnfcom/{identifier}",
+    "origin": "https://api.webmania.com.br",
+    "request": "FileGetNfcomXmlRequest",
+    "package": "model.api2emitterfiles",
+    "response": "Download",
+    "binary": true,
+    "enabled": true,
+    "security": [
+      {
+        "FiscalFileCompanyBearer": []
+      },
+      {
+        "FiscalDocumentLinkToken": []
+      },
+      {}
+    ]
+  },
+  {
+    "id": "fileGetNfcomCancelXml",
+    "module": "api2/emitter-files.openapi.json",
+    "method": "GET",
+    "path": "/xmlnfcom/{identifier}/cancelamento",
+    "origin": "https://api.webmania.com.br",
+    "request": "FileGetNfcomCancelXmlRequest",
+    "package": "model.api2emitterfiles",
+    "response": "Download",
+    "binary": true,
+    "enabled": true,
+    "security": [
+      {
+        "FiscalFileCompanyBearer": []
+      },
+      {
+        "FiscalDocumentLinkToken": []
+      },
+      {}
+    ]
+  },
+  {
+    "id": "fileGetNfcomPdf",
+    "module": "api2/emitter-files.openapi.json",
+    "method": "GET",
+    "path": "/danfecom/{identifier}",
+    "origin": "https://api.webmania.com.br",
+    "request": "FileGetNfcomPdfRequest",
+    "package": "model.api2emitterfiles",
+    "response": "Download",
+    "binary": true,
+    "enabled": true,
+    "security": [
+      {
+        "FiscalFileCompanyBearer": []
+      },
+      {
+        "FiscalDocumentLinkToken": []
+      },
+      {}
+    ]
+  },
+  {
+    "id": "fileGetDceXml",
+    "module": "api2/emitter-files.openapi.json",
+    "method": "GET",
+    "path": "/xmldce/{identifier}",
+    "origin": "https://api.webmania.com.br",
+    "request": "FileGetDceXmlRequest",
+    "package": "model.api2emitterfiles",
+    "response": "Download",
+    "binary": true,
+    "enabled": true,
+    "security": [
+      {
+        "FiscalFileCompanyBearer": []
+      },
+      {
+        "FiscalDocumentLinkToken": []
+      },
+      {}
+    ]
+  },
+  {
+    "id": "fileGetDceCancelXml",
+    "module": "api2/emitter-files.openapi.json",
+    "method": "GET",
+    "path": "/xmldce/{identifier}/cancelamento",
+    "origin": "https://api.webmania.com.br",
+    "request": "FileGetDceCancelXmlRequest",
+    "package": "model.api2emitterfiles",
+    "response": "Download",
+    "binary": true,
+    "enabled": true,
+    "security": [
+      {
+        "FiscalFileCompanyBearer": []
+      },
+      {
+        "FiscalDocumentLinkToken": []
+      },
+      {}
+    ]
+  },
+  {
+    "id": "fileGetDcePdf",
+    "module": "api2/emitter-files.openapi.json",
+    "method": "GET",
+    "path": "/dace/{identifier}",
+    "origin": "https://api.webmania.com.br",
+    "request": "FileGetDcePdfRequest",
+    "package": "model.api2emitterfiles",
+    "response": "Download",
+    "binary": true,
+    "enabled": true,
+    "security": [
+      {
+        "FiscalFileCompanyBearer": []
+      },
+      {
+        "FiscalDocumentLinkToken": []
+      },
+      {}
+    ]
+  },
+  {
+    "id": "emitterGetNfseProviderStatus",
+    "module": "api2/emitter-reads.openapi.json",
+    "method": "GET",
+    "path": "/2/nfse/status",
+    "origin": "https://api.webmania.com.br",
+    "request": "EmitterGetNfseProviderStatusRequest",
+    "package": "model.api2emitterreads",
+    "response": "EmitterGetNfseProviderStatusResponse",
+    "binary": false,
+    "enabled": true,
+    "security": [
+      {
+        "IssuerBearer": []
+      }
+    ]
+  },
+  {
+    "id": "emitterGetNfcomServiceStatus",
+    "module": "api2/emitter-reads.openapi.json",
+    "method": "GET",
+    "path": "/2/nfcom/status",
+    "origin": "https://api.webmania.com.br",
+    "request": "EmitterGetNfcomServiceStatusRequest",
+    "package": "model.api2emitterreads",
+    "response": "EmitterGetNfcomServiceStatusResponse",
+    "binary": false,
+    "enabled": true,
+    "security": [
+      {
+        "IssuerBearer": []
+      }
+    ]
+  },
+  {
+    "id": "emitterGetNfse",
+    "module": "api2/emitter-reads.openapi.json",
+    "method": "GET",
+    "path": "/2/nfse/consulta/{identifier}",
+    "origin": "https://api.webmania.com.br",
+    "request": "EmitterGetNfseRequest",
+    "package": "model.api2emitterreads",
+    "response": "EmitterGetNfseResponse",
+    "binary": false,
+    "enabled": true,
+    "security": [
+      {
+        "IssuerBearer": []
+      }
+    ]
+  },
+  {
+    "id": "emitterGetNfcom",
+    "module": "api2/emitter-reads.openapi.json",
+    "method": "GET",
+    "path": "/2/nfcom/consulta/{identifier}",
+    "origin": "https://api.webmania.com.br",
+    "request": "EmitterGetNfcomRequest",
+    "package": "model.api2emitterreads",
+    "response": "EmitterGetNfcomResponse",
+    "binary": false,
+    "enabled": true,
+    "security": [
+      {
+        "IssuerBearer": []
+      }
+    ]
+  },
+  {
+    "id": "emitterGetNfcomPaymentEvents",
+    "module": "api2/emitter-reads.openapi.json",
+    "method": "GET",
+    "path": "/2/nfcom/consulta/evento/{identifier}",
+    "origin": "https://api.webmania.com.br",
+    "request": "EmitterGetNfcomPaymentEventsRequest",
+    "package": "model.api2emitterreads",
+    "response": "EmitterGetNfcomPaymentEventsResponse",
+    "binary": false,
+    "enabled": true,
+    "security": [
+      {
+        "IssuerBearer": []
+      }
+    ]
+  },
+  {
+    "id": "emitterManifestNfse",
+    "module": "api2/emitter-reads.openapi.json",
+    "method": "PUT",
+    "path": "/2/nfse/manifestar",
+    "origin": "https://api.webmania.com.br",
+    "request": "EmitterManifestNfseRequest",
+    "package": "model.api2emitterreads",
+    "response": "EmitterManifestNfseResponse",
+    "binary": false,
+    "enabled": true,
+    "security": [
+      {
+        "IssuerBearer": []
+      }
+    ]
+  },
+  {
+    "id": "emitterIssueMdfe",
+    "module": "api2/mdfe-issuance.openapi.json",
+    "method": "POST",
+    "path": "/2/mdfe/emissao",
+    "origin": "https://api.webmania.com.br",
+    "request": "EmitterIssueMdfeRequest",
+    "package": "model.api2mdfeissuance",
+    "response": "MdfeFiscalResponse",
+    "binary": false,
+    "enabled": true,
+    "security": [
+      {
+        "IssuerBearer": []
+      }
+    ]
+  },
+  {
+    "id": "emitterCloseMdfe",
+    "module": "api2/mdfe-issuance.openapi.json",
+    "method": "PUT",
+    "path": "/2/mdfe/encerrar",
+    "origin": "https://api.webmania.com.br",
+    "request": "EmitterCloseMdfeRequest",
+    "package": "model.api2mdfeissuance",
+    "response": "FiscalEventResponse",
+    "binary": false,
+    "enabled": true,
+    "security": [
+      {
+        "IssuerBearer": []
+      }
+    ]
+  },
+  {
+    "id": "emitterCancelMdfe",
+    "module": "api2/mdfe-issuance.openapi.json",
+    "method": "PUT",
+    "path": "/2/mdfe/cancelar",
+    "origin": "https://api.webmania.com.br",
+    "request": "EmitterCancelMdfeRequest",
+    "package": "model.api2mdfeissuance",
+    "response": "FiscalEventResponse",
+    "binary": false,
+    "enabled": true,
+    "security": [
+      {
+        "IssuerBearer": []
+      }
+    ]
+  },
+  {
+    "id": "emitterAddMdfeConductor",
+    "module": "api2/mdfe-issuance.openapi.json",
+    "method": "PUT",
+    "path": "/2/mdfe/condutor",
+    "origin": "https://api.webmania.com.br",
+    "request": "EmitterAddMdfeConductorRequest",
+    "package": "model.api2mdfeissuance",
+    "response": "FiscalEventResponse",
+    "binary": false,
+    "enabled": true,
+    "security": [
+      {
+        "IssuerBearer": []
+      }
+    ]
+  },
+  {
+    "id": "emitterGetMdfe",
+    "module": "api2/mdfe-issuance.openapi.json",
+    "method": "GET",
+    "path": "/2/mdfe/consulta/{key}",
+    "origin": "https://api.webmania.com.br",
+    "request": "EmitterGetMdfeRequest",
+    "package": "model.api2mdfeissuance",
+    "response": "MdfeFiscalResponse",
+    "binary": false,
+    "enabled": true,
+    "security": [
+      {
+        "IssuerBearer": []
+      }
+    ]
+  },
+  {
+    "id": "monitorSearchDocuments",
+    "module": "api2/monitor-documents.openapi.json",
+    "method": "POST",
+    "path": "/2/monitor/documentos",
+    "origin": "https://api.webmania.com.br",
+    "request": "MonitorSearchDocumentsRequest",
+    "package": "model.api2monitordocuments",
+    "response": "MonitorSearchDocumentsResponse",
+    "binary": false,
+    "enabled": true,
+    "security": [
+      {
+        "MonitorBearer": []
+      }
+    ]
+  },
+  {
+    "id": "monitorGetDocument",
+    "module": "api2/monitor-documents.openapi.json",
+    "method": "GET",
+    "path": "/2/monitor/documentos/{fd}",
+    "origin": "https://api.webmania.com.br",
+    "request": "MonitorGetDocumentRequest",
+    "package": "model.api2monitordocuments",
+    "response": "MonitorDocument",
+    "binary": false,
+    "enabled": true,
+    "security": [
+      {
+        "MonitorBearer": []
+      }
+    ]
+  },
+  {
+    "id": "monitorListDocumentEvents",
+    "module": "api2/monitor-documents.openapi.json",
+    "method": "GET",
+    "path": "/2/monitor/documentos/{fd}/eventos",
+    "origin": "https://api.webmania.com.br",
+    "request": "MonitorListDocumentEventsRequest",
+    "package": "model.api2monitordocuments",
+    "response": "MonitorListDocumentEventsResponse",
+    "binary": false,
+    "enabled": true,
+    "security": [
+      {
+        "MonitorBearer": []
+      }
+    ]
+  },
+  {
+    "id": "monitorManifestDocument",
+    "module": "api2/monitor-documents.openapi.json",
+    "method": "POST",
+    "path": "/2/monitor/documentos/{fd}/eventos",
+    "origin": "https://api.webmania.com.br",
+    "request": "MonitorManifestDocumentRequest",
+    "package": "model.api2monitordocuments",
+    "response": "MonitorEvent",
+    "binary": false,
+    "enabled": true,
+    "security": [
+      {
+        "MonitorBearer": []
+      }
+    ]
+  },
+  {
+    "id": "monitorListReports",
+    "module": "api2/monitor-documents.openapi.json",
+    "method": "GET",
+    "path": "/2/monitor/documentos/relatorios",
+    "origin": "https://api.webmania.com.br",
+    "request": "MonitorListReportsRequest",
+    "package": "model.api2monitordocuments",
+    "response": "MonitorReportPage",
+    "binary": false,
+    "enabled": true,
+    "security": [
+      {
+        "MonitorBearer": []
+      }
+    ]
+  },
+  {
+    "id": "monitorDownloadReport",
+    "module": "api2/monitor-documents.openapi.json",
+    "method": "GET",
+    "path": "/2/monitor/documentos/relatorios/{report}",
+    "origin": "https://api.webmania.com.br",
+    "request": "MonitorDownloadReportRequest",
+    "package": "model.api2monitordocuments",
+    "response": "Download",
+    "binary": true,
+    "enabled": true,
+    "security": [
+      {
+        "MonitorBearer": []
+      }
+    ]
+  },
+  {
+    "id": "monitorImportDocument",
+    "module": "api2/monitor-documents.openapi.json",
+    "method": "POST",
+    "path": "/2/monitor/documentos/importacoes",
+    "origin": "https://api.webmania.com.br",
+    "request": "MonitorImportDocumentRequest",
+    "package": "model.api2monitordocuments",
+    "response": "MonitorImportDocumentResponse",
+    "binary": false,
+    "enabled": true,
+    "security": [
+      {
+        "MonitorBearer": []
+      }
+    ]
+  },
+  {
+    "id": "monitorGetImportStatus",
+    "module": "api2/monitor-documents.openapi.json",
+    "method": "GET",
+    "path": "/2/monitor/documentos/importacoes/{uuid}",
+    "origin": "https://api.webmania.com.br",
+    "request": "MonitorGetImportStatusRequest",
+    "package": "model.api2monitordocuments",
+    "response": "MonitorImportStatus",
+    "binary": false,
+    "enabled": true,
+    "security": [
+      {
+        "MonitorBearer": []
+      }
+    ]
+  },
+  {
+    "id": "monitorCreateCompany",
+    "module": "api2/monitor-management.openapi.json",
+    "method": "POST",
+    "path": "/2/monitor/empresas",
+    "origin": "https://api.webmania.com.br",
+    "request": "MonitorCreateCompanyParameters",
+    "package": "model.api2monitormanagement",
+    "response": "MonitorCompany",
+    "binary": false,
+    "enabled": true,
+    "security": [
+      {
+        "MonitorBearer": []
+      }
+    ]
+  },
+  {
+    "id": "monitorUpdateCompany",
+    "module": "api2/monitor-management.openapi.json",
+    "method": "PUT",
+    "path": "/2/monitor/empresas/{company}",
+    "origin": "https://api.webmania.com.br",
+    "request": "MonitorUpdateCompanyParameters",
+    "package": "model.api2monitormanagement",
+    "response": "MonitorCompany",
+    "binary": false,
+    "enabled": true,
+    "security": [
+      {
+        "MonitorBearer": []
+      }
+    ]
+  },
+  {
+    "id": "monitorCreateCompanyMunicipality",
+    "module": "api2/monitor-management.openapi.json",
+    "method": "POST",
+    "path": "/2/monitor/empresas/{company}/municipios-nfse",
+    "origin": "https://api.webmania.com.br",
+    "request": "MonitorCreateCompanyMunicipalityRequest",
+    "package": "model.api2monitormanagement",
+    "response": "MonitorMunicipalityRegistration",
+    "binary": false,
+    "enabled": true,
+    "security": [
+      {
+        "MonitorBearer": []
+      }
+    ]
+  },
+  {
+    "id": "monitorUpdateCompanyMunicipality",
+    "module": "api2/monitor-management.openapi.json",
+    "method": "PUT",
+    "path": "/2/monitor/empresas/{company}/municipios-nfse/{download}",
+    "origin": "https://api.webmania.com.br",
+    "request": "MonitorUpdateCompanyMunicipalityRequest",
+    "package": "model.api2monitormanagement",
+    "response": "MonitorMunicipalityRegistration",
+    "binary": false,
+    "enabled": true,
+    "security": [
+      {
+        "MonitorBearer": []
+      }
+    ]
+  },
+  {
+    "id": "monitorDeleteCompanyMunicipality",
+    "module": "api2/monitor-management.openapi.json",
+    "method": "DELETE",
+    "path": "/2/monitor/empresas/{company}/municipios-nfse/{download}",
+    "origin": "https://api.webmania.com.br",
+    "request": "MonitorDeleteCompanyMunicipalityRequest",
+    "package": "model.api2monitormanagement",
+    "response": "MonitorDeleteCompanyMunicipalityResponse",
+    "binary": false,
+    "enabled": true,
+    "security": [
+      {
+        "MonitorBearer": []
+      }
+    ]
+  },
+  {
+    "id": "monitorListCompanies",
+    "module": "api2/monitor-reads.openapi.json",
+    "method": "GET",
+    "path": "/2/monitor/empresas",
+    "origin": "https://api.webmania.com.br",
+    "request": "MonitorListCompaniesRequest",
+    "package": "model.api2monitorreads",
+    "response": "MonitorCompanyPage",
+    "binary": false,
+    "enabled": true,
+    "security": [
+      {
+        "MonitorBearer": []
+      }
+    ]
+  },
+  {
+    "id": "monitorGetCompany",
+    "module": "api2/monitor-reads.openapi.json",
+    "method": "GET",
+    "path": "/2/monitor/empresas/{company}",
+    "origin": "https://api.webmania.com.br",
+    "request": "MonitorGetCompanyRequest",
+    "package": "model.api2monitorreads",
+    "response": "MonitorCompany",
+    "binary": false,
+    "enabled": true,
+    "security": [
+      {
+        "MonitorBearer": []
+      }
+    ]
+  },
+  {
+    "id": "monitorListCompanyMunicipalities",
+    "module": "api2/monitor-reads.openapi.json",
+    "method": "GET",
+    "path": "/2/monitor/empresas/{company}/municipios-nfse",
+    "origin": "https://api.webmania.com.br",
+    "request": "MonitorListCompanyMunicipalitiesRequest",
+    "package": "model.api2monitorreads",
+    "response": "MonitorMunicipalityPage",
+    "binary": false,
+    "enabled": true,
+    "security": [
+      {
+        "MonitorBearer": []
+      }
+    ]
+  },
+  {
+    "id": "monitorGetCompanyMunicipality",
+    "module": "api2/monitor-reads.openapi.json",
+    "method": "GET",
+    "path": "/2/monitor/empresas/{company}/municipios-nfse/{download}",
+    "origin": "https://api.webmania.com.br",
+    "request": "MonitorGetCompanyMunicipalityRequest",
+    "package": "model.api2monitorreads",
+    "response": "MonitorMunicipalityRegistration",
+    "binary": false,
+    "enabled": true,
+    "security": [
+      {
+        "MonitorBearer": []
+      }
+    ]
+  },
+  {
+    "id": "monitorListAvailableMunicipalities",
+    "module": "api2/monitor-reads.openapi.json",
+    "method": "GET",
+    "path": "/2/monitor/municipios-nfse",
+    "origin": "https://api.webmania.com.br",
+    "request": "MonitorListAvailableMunicipalitiesRequest",
+    "package": "model.api2monitorreads",
+    "response": "MonitorListAvailableMunicipalitiesResponse",
+    "binary": false,
+    "enabled": true,
+    "security": [
+      {
+        "MonitorBearer": []
+      }
+    ]
+  },
+  {
+    "id": "monitorGetDownloadStatistics",
+    "module": "api2/monitor-reads.openapi.json",
+    "method": "GET",
+    "path": "/2/monitor/estatisticas/downloads",
+    "origin": "https://api.webmania.com.br",
+    "request": "MonitorGetDownloadStatisticsRequest",
+    "package": "model.api2monitorreads",
+    "response": "MonitorDownloadStatistics",
+    "binary": false,
+    "enabled": true,
+    "security": [
+      {
+        "MonitorBearer": []
+      }
+    ]
+  },
+  {
+    "id": "emitterIssueNfcom",
+    "module": "api2/nfcom-issuance.openapi.json",
+    "method": "POST",
+    "path": "/2/nfcom/emissao",
+    "origin": "https://api.webmania.com.br",
+    "request": "EmitterIssueNfcomRequest",
+    "package": "model.api2nfcomissuance",
+    "response": "NfcomFiscalResponse",
+    "binary": false,
+    "enabled": true,
+    "security": [
+      {
+        "IssuerBearer": []
+      }
+    ]
+  },
+  {
+    "id": "emitterCancelNfcom",
+    "module": "api2/nfcom-issuance.openapi.json",
+    "method": "PUT",
+    "path": "/2/nfcom/cancelar",
+    "origin": "https://api.webmania.com.br",
+    "request": "EmitterCancelNfcomRequest",
+    "package": "model.api2nfcomissuance",
+    "response": "FiscalEventResponse",
+    "binary": false,
+    "enabled": true,
+    "security": [
+      {
+        "IssuerBearer": []
+      }
+    ]
+  },
+  {
+    "id": "emitterIssueNfse",
+    "module": "api2/nfse-issuance.openapi.json",
+    "method": "POST",
+    "path": "/2/nfse/emissao",
+    "origin": "https://api.webmania.com.br",
+    "request": "EmitterIssueNfseRequest",
+    "package": "model.api2nfseissuance",
+    "response": "NfseFiscalResponse",
+    "binary": false,
+    "enabled": true,
+    "security": [
+      {
+        "IssuerBearer": []
+      }
+    ]
+  },
+  {
+    "id": "emitterCancelNfse",
+    "module": "api2/nfse-issuance.openapi.json",
+    "method": "PUT",
+    "path": "/2/nfse/cancelar",
+    "origin": "https://api.webmania.com.br",
+    "request": "EmitterCancelNfseRequest",
+    "package": "model.api2nfseissuance",
+    "response": "NfseFiscalResponse",
+    "binary": false,
+    "enabled": true,
+    "security": [
+      {
+        "IssuerBearer": []
+      }
+    ]
+  },
+  {
+    "id": "emitterReplaceNfse",
+    "module": "api2/nfse-issuance.openapi.json",
+    "method": "POST",
+    "path": "/2/nfse/substituir",
+    "origin": "https://api.webmania.com.br",
+    "request": "EmitterReplaceNfseRequest",
+    "package": "model.api2nfseissuance",
+    "response": "NfseFiscalResponse",
+    "binary": false,
+    "enabled": true,
+    "security": [
+      {
+        "IssuerBearer": []
+      }
+    ]
+  },
+  {
+    "id": "fiscalDownloadReportV2",
+    "module": "api2/reports.openapi.json",
+    "method": "GET",
+    "path": "/relatorios/{uuid}",
+    "origin": "https://api.webmania.com.br",
+    "request": "FiscalDownloadReportV2Request",
+    "package": "model.api2reports",
+    "response": "Download",
+    "binary": true,
+    "enabled": true,
+    "security": [
+      {},
+      {
+        "ConsumerKey": [],
+        "ConsumerSecret": [],
+        "AccessToken": [],
+        "AccessTokenSecret": []
+      },
+      {
+        "ReportCompanyBearer": []
+      }
+    ]
+  }
+]
